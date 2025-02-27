@@ -12,7 +12,8 @@ chrome_options = Options()
 driver = webdriver.Chrome(options=chrome_options)
 
 def main():
-    driver.get("https://www.tines.com/library/tools/")
+    BASE_URL = "https://www.tines.com/library/tools/"
+    driver.get(BASE_URL)
     
     try:
         # Wait for the table body to be visible
@@ -37,10 +38,16 @@ def main():
         # print(tools_data,end='\n')
 
         # Write data to a CSV file
-        with open('tools_data.csv', 'w') as f:
+        with open('data/tools_data.csv', 'w') as f:
             f.write('Tool Name,Number of Stories\n')
             for tool in tools_data:
                 f.write(f'{tool[0]},{tool[1]}\n')
+                driver.newtool[0]
+
+        print("Data saved to tools_data.csv")
+
+
+
 
     except Exception as e:
         print("Error:", e)
