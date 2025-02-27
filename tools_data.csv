@@ -1,0 +1,226 @@
+Tool Name,Number of Stories
+Slack,234
+Jira Software,150
+AWS,91
+Tines,73
+Google,71
+CrowdStrike,64
+Okta,51
+Microsoft,48
+VirusTotal,43
+Microsoft Azure,36
+GitHub,34
+Elastic,32
+Drata,26
+Microsoft Teams,21
+URLScan.io,21
+GreyNoise,20
+OpenAI,20
+Recorded Future,16
+Sublime Security,16
+ServiceNow,15
+BambooHR,14
+Splunk,14
+AbuseIPDB,12
+Google Sheets,12
+Notion,12
+PagerDuty,12
+Wiz,12
+DomainTools,10
+Zendesk,10
+Airtable,9
+Fleet,9
+Microsoft OneDrive,9
+SentinelOne,9
+SpyCloud,9
+Tenable Vulnerability Management,9
+Code42,8
+JupiterOne,8
+Axonius,7
+Duo Security,7
+GitLab,7
+Pulsedive,7
+EmailRep,6
+Microsoft Defender,6
+OpsGenie,6
+Qualys,6
+Shodan,6
+Zscaler,6
+Anomali ThreatStream,5
+Ansible,5
+Cisco,5
+Criminal IP,5
+Google Drive,5
+HashiCorp,5
+Jamf,5
+Knowbe4,5
+LimaCharlie,5
+MISP,5
+Orca Security,5
+Salesforce,5
+Snyk,5
+Sysdig,5
+TheHive Project,5
+APIVoid,4
+Censys,4
+Google Calendar,4
+HashiCorp Terraform,4
+Intercom,4
+Kubernetes,4
+Lacework,4
+Material Security,4
+MITRE,4
+Netskope,4
+Panther,4
+Snowflake,4
+Spotify,4
+Sumo Logic,4
+Thinkst Canary,4
+Any.Run,3
+Apex Central,3
+Confluence,3
+Cribl,3
+Cybersixgill,3
+DataDog,3
+Devo,3
+Discord,3
+Google Cloud Storage,3
+Harmonic Security,3
+Hunters SOC Platform,3
+Kandji,3
+Linear,3
+LogScale,3
+NextDNS,3
+OctoPerf,3
+Opal,3
+QuickChart,3
+runZero,3
+Twilio,3
+VulnCheck,3
+X,3
+Zoom,3
+Abuse.ch,2
+Amazon GuardDuty,2
+Analyst1,2
+Anecdotes.ai,2
+Browserless,2
+ConductorOne,2
+CyberArk,2
+Cybereason,2
+Cyera,2
+DelivrTo,2
+Gmail,2
+Have I Been Pwned,2
+HiBob,2
+Hybrid Analysis,2
+ID.me,2
+Intezer Analyze,2
+IOC Parser,2
+IPQualityScore,2
+Jumpcloud,2
+Logz.io,2
+Lumos,2
+Malware Traffic Analysis,2
+Meta,2
+Mimecast,2
+OCRSpace,2
+Palo Alto Networks,2
+PassiveTotal,2
+Phish Report,2
+Power BI,2
+Proofpoint,2
+Reco,2
+Reversing Labs,2
+Security Scorecard,2
+SonarCloud,2
+Tailscale,2
+Traceable.ai,2
+Veza,2
+1Password,1
+AdGuard,1
+Aikido,1
+Akamai,1
+AlienVault OTX,1
+alphaMountain,1
+Aqua Security,1
+Argo Workflows,1
+Armis,1
+Artifactory,1
+Automox,1
+BMC Helix IT Service Management,1
+Bolster AI,1
+Bowtie,1
+BuildKite,1
+CheckPhish.ai,1
+Claroty xDome,1
+Cloudflare,1
+Coda,1
+Cylance,1
+Docebo,1
+DocSpring,1
+DocuSign,1
+Dremio,1
+Endace,1
+Entro,1
+ExtensionTotal,1
+Extrahop,1
+Facebook Messenger,1
+FireBase,1
+Grafana,1
+Grip Security,1
+HCL AppScan,1
+Hunter.io,1
+Infoblox,1
+Invary,1
+IRIS,1
+IriusRisk,1
+Island,1
+Jira Service Management,1
+Kolide,1
+Lansweeper,1
+LinkedIn,1
+Malwarebytes,1
+Manage Engine,1
+Mattermost,1
+MetaDefender,1
+MongoDB Atlas,1
+NetBox,1
+Netsuite,1
+New Relic,1
+Nightfall AI,1
+NPM,1
+NVIDIA,1
+OneLogin,1
+Opencage,1
+OpenCTI,1
+Openrouter,1
+PDFCo,1
+Pushover,1
+Quickbase,1
+Rapid7,1
+Semgrep,1
+SerpApi,1
+Shortcut,1
+Silent Push,1
+Smartsheet,1
+Sonatype,1
+Sophos,1
+Spur,1
+SSLMate,1
+Stability AI,1
+Stairwell,1
+Statuspage,1
+Supabase,1
+Tanium,1
+Telegram,1
+TurboDocx,1
+Velociraptor,1
+VeSync,1
+VMRay,1
+Vorlon,1
+Wazuh,1
+Webex,1
+Webhood,1
+Workday,1
+Workplace,1
+Yubico,1
