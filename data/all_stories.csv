@@ -1,0 +1,998 @@
+Story,Works with,No. of Actions,Author
+"Analyze phishing email senders, URLs, & attachments",", , , ",51,
+Analyze CrowdStrike detections,", , , ",13,
+Analyze a file in VirusTotal,,21,
+Analyze and triage suspicious emails with various tools,", , , , , ",59,Michael Tolan
+Add form data to Google Sheets,,3,
+Create AI powered tools in Tines,,10,
+Analyze domains through multiple sources,", ",16,
+Run provided searches in Splunk,,13,
+Bootcamp - Tines Fundamentals,,0,
+Create Tines case from the Risk Register,,4,Conor Dunne
+List EC2 instances in AWS,,11,Michael Tolan
+Manage SSH users via Ansible,,6,Conor Dunne
+Search Microsoft sign in logs,,8,
+Analyze URLs in URLScan,,12,
+Add a domain to a blocklist in Zscaler,", ",15,Conor Dunne
+Implement pagination with these techniques,", , , ",32,
+Backup Tines Stories to GitHub,,22,
+Bootcamp - Tines Advanced,,12,
+Send KnowBe4 training reminders via Slack,", ",23,
+Analyze email headers for IPs and spoofing,,14,
+Run a CrowdStrike Real Time Response command,,11,
+Analyze an IP in many services at once,", , , , , ",13,Michael Tolan
+Ingest Tines audit logs into Splunk,,9,
+Monitor security advisories,", ",15,
+Bootcamp - AI in Tines,,2,
+Geo-lookup IP addresses in bulk,,8,
+Check for new CISA vulnerabilities,", ",6,
+Create Jira issues via Slack,", ",7,
+Send interactive messages in Slack,", ",26,
+Generate a Google service account credential,", ",7,Aaron Sandow
+Analyze a hash in VirusTotal,,15,Michael Tolan
+Triage Elastic Security alerts and block malicious IPs,", , ",17,
+Introduction to Tines,,10,
+Explore loop examples,,8,Emily Nguyen
+Lookup IOCs in different tools via Slackbot,", , , , , , , , , ",66,Emily Nguyen
+Find & remediate publicly exposed S3 buckets with Wiz,", , , ",13,
+Get new advisories from CISA,,7,
+Add a new user in Microsoft Entra ID,", , , ",6,Michael Tolan
+Identify and remediate malicious SentinelOne threats with VirusTotal,", , ",40,
+Analyze SMS messages for scams using OCR and AI,,12,
+Fetch and record CrowdStrike Spotlight vulnerabilities with Jira,", , ",26,
+Display data in a table and provide a download option,,6,Conor Dunne
+Query various Mimecast endpoints,,16,
+Search & update notable status in Splunk Enterprise Security,,11,Tines
+Handle Code42 alerts,", , ",17,
+"Ingest, analyze and store IOCs with Tines",", , , , , , , ",45,Michael Tolan
+Analyze Crowdstrike detections and report in Jira and Microsoft Teams,", , , ",13,
+Bulk search Have I Been Pwned,,16,Michael Tolan
+Offboard employees using BambooHR,", , , ",18,
+Grant temporary application access,", , , ",30,"Shaun Finn , Rosie Halpin and Michael Tolan"
+Analyze suspicious email contents with ChatGPT Vision,,5,
+Analyse an IP address,", ",5,
+Add new employees to BambooHR and manage system access,", , , , ",17,Michael Tolan
+Onboard employees & grant specialized access to specific tools,", , ",21,
+Investigate & remediate Lacework alerts,", , ",25,
+Investigate unresolved SentinelOne threats,", ",5,
+Query Log Analytics for Azure Sentinel alerts,", ",5,
+Check CrowdStrike agent is installed on new devices provisioned,", , , ",18,Shaun Finn
+Create an IP enrichment API,", , ",6,
+Normalize alerts from multiple sources using ChatGPT,", , , ",16,
+Analyze vulnerabilities from Tenable workbench,", , , ",25,
+Search Elastic data sets and display results,,5,
+Facilitate & approve user requests to specific tools,,17,
+Explore Tines Cases with provided sample data,,22,
+Detect and remediate malware issues in Wiz with SentinelOne,", , , ",21,
+Fetch & manage Microsoft Defender alerts,", ",5,
+Create & manage incident communications with Slack and Jira,", ",59,Rosie Halpin
+Analyze IPs & search for indicators of compromise,", , ",29,
+Analyze and manage phishing alerts with KnowBe4 PhishER and Talos,,23,
+Contain a registered device with CrowdStrike,", , ",10,
+Bootcamp - Tines Pages and Applications,,12,
+Send an IOC to Recorded Future for analysis,,21,Michael Tolan
+Send an Okta MFA challenge via a Tines page,", ",34,
+Analyze phishing emails with Recorded Future,,36,
+Read forwarded phishing emails and attachments,,5,
+Normalize alerts with Tines AI and create Cases,,11,Michael Tolan
+Create GitHub Issues from Elastic SIEM alerts,", ",6,
+Send a prompt to a Slack channel or user & take action,,13,Lasse Høgsholt
+Search and delete spam in an Office 365 mailbox,,10,
+Monitor action failures in Tines and notify via Slack,", ",14,Michael Tolan
+Add URLhaus URLS to Cisco Umbrella deny list,,5,
+Enrich & remediate suspicious logins reported in Okta,", , , ",14,Derek Wohlfahrt
+Use AI to create cases and act on CrowdStrike alerts,", , , ",87,Conor Dunne
+"Disable accounts in Google Workspace, GitHub, and Okta",", , , ",23,Aaron Sandow
+Perform threat hunting with SentinelOne Deep Visibility,,27,Conor Dunne
+Send a message to user in Microsoft Teams,", ",17,
+Detect secrets and sensitive data shared in Slack,,15,Nick Page
+Kill an active process in CrowdStrike,,21,Conor Dunne
+Disable accounts in Microsoft Entra ID,", ",14,
+Isolate a host protected by Elastic Endpoint,,11,Conor Dunne
+Add CrowdStrike Spotlight vulnerability evidence to Drata,", ",16,
+Describe a Tines Story with Tines AI,,6,Michael Tolan
+Get weather for a location,,3,
+Tag Tines cases using MITRE ATT&CK techniques and tactics,,13,Conor Dunne
+Check if new AWS GuardDuty findings are malicious,", , , ",27,
+Manage alerts from Microsoft Defender Cloud,", ",39,
+Analyze and triage suspicious emails across tools and Tines cases,", , , , ",65,Michael Tolan
+Common data filtering examples,,8,
+Analyze domains via slash command in Microsoft Teams,", ",10,
+Submit URL for analysis via Slackbot and return screenshot of results,", , ",9,
+Analyze files in Joe Sandbox,,25,Troy Wegner
+Add a user to Okta,,10,
+Check URL in CheckPhish,", ",7,
+Correlate & alert on failed login attempts in Okta via Slack,", ",8,
+Triage new alerts in Google Alert Center with human oversight,", , ",19,
+Invalidate user's password in Azure Active Directory,", ",9,
+Manage CrowdStrike IOCs in Slack,", ",38,
+Build a counter in Tines,,6,
+Verify CrowdStrike is present on new devices in Jamf,", , ",9,Conor Dunne
+Check IP addresses in Panther & send results via Slack,", , ",20,Eoin Magner
+Detect and Respond to Okta Impossible Travel Sign-ins with Slack and Tines Cases,", ",25,
+Pull IOCs from Malware Traffic Analysis,,14,
+Move Google Docs and Calendar to another user in Google Workspace,,17,
+Submit prompts to Tines AI and get results,,3,Michael Tolan
+Draft or send an email,,6,
+Start conversations with ChatGPT in Slack,", ",12,
+"Detect, log and remediate AWS alerts with Orca Security and Jira",", , , ",21,
+Detect and Block Bucket Public Access Policy with Cyera.io and AWS,", , ",11,
+Invalidate authentication sessions for a user in Azure Entra ID,", ",17,Michael Tolan
+Take action on Azure Sentinel alerts depending on severity level,", , , ",30,Shaun Finn
+Query Elasticsearch and page through results,,15,
+Respond to approve and deny requests via Slack,,7,
+Crowdsource suspicious logins and suspend accounts,", , , , ",16,
+Track Snyk issues in Jira,", ",16,
+Pull a Python Script from Github to execute in Tines,,6,
+Ingest Tines audit logs into AWS S3 Bucket,,7,
+Build ServiceNow API requests in Tines,,20,Conor Dunne
+Make a query in Sumo Logic,,9,
+Request URLs to be added to Zscaler Allowlist,", ",13,
+Incident Management with Slack and Tines Cases,,90,
+Investigate and enrich suspicious Office 365 login Elastic alerts,", ",20,
+Monitor US-CERT for IOCs and block dynamically,,14,
+Document Tines stories in Atlassian Confluence,", ",72,Tyler Talaga at MyFitnessPal
+Onboard employees to BambooHR and grant access to office suites and Microsoft Teams,", , , , ",11,
+"Analyze Elastic alerts, block IPs, and notify in Slack and Tines Cases",", , , , ",10,Michael Tolan
+Filter Hunters alerts by risk level and create cases via Slack,", , ",8,
+Use Analyst1 threat intelligence in Sublime Security,", ",39,
+Search for Jamf assets using Tines Pages,,9,
+Identify false positive alerts from Elastic using a database in Notion,", ",11,Michael Tolan
+Send Wiz alerts to Slack and raise issues in Jira,", , ",22,
+Search IOCs on webpages in VirusTotal and Circl CVE,,45,Conor Dunne
+Receive alerts for public S3 buckets & make private,", ",12,
+Search for & remediate public AWS S3 buckets with JupiterOne,", , ",10,
+Analyze a URL with URLScan,,17,Michael Tolan
+Analyze IOCs in Pulsedive,,19,Michael Tolan
+Elastic SIEM to Slack alert enrichment,", , ",106,Aaron Jewitt at Elastic
+Email an on-call engineer with PagerDuty,", ",21,
+Run & track vulnerability scans with Orca Security,", ",12,
+Retrieve and remediate Cyera issues,", , , ",45,Monolithic Power Systems
+Discover and monitor unmanaged devices using Axonius,", , ",10,
+Monitor and deactivate long-lasting AWS IAM keys,,12,Michael Tolan
+Report and lock lost devices in Jamf,", , ",14,Conor Dunne
+Create unique ServiceNow tickets from Splunk alerts,", ",19,
+Send out-of-office replies in Slack,,6,
+Detonate files with Recorded Future Sandbox,", ",17,
+Analyze phishing emails with Material Security,,32,
+Block scanning IPs with Palo Alto external dynamic list,,6,
+Investigate EDR alerts from Carbon Black,", , ",11,Shaun Finn
+Streamline macOS software updates with self-service patch management,,57,Tyler Talaga at MyFitnessPal
+Create new Azure AD users via a form,", , ",10,Shaun Finn
+Enrich Microsoft security update CVEs with Recorded Future,", ",18,Derek Wohlfahrt
+Send an MFA push challenge to an Okta user on-demand,", ",11,
+Check if host is active in CrowdStrike and take action,", ",14,
+Add completed security training evidence to Drata,,7,
+Manage CrowdStrike detections using Pages,,19,Conor Dunne
+Check mailboxes for external autoforward rules and filters in Google Workspace,,28,
+Deactivate stale AWS access keys discovered by Wiz,", , , ",17,Derek Wohlfahrt
+Reset a user's password and active sessions in Okta,,9,Michael Tolan
+Track AWS GuardDuty alerts in Jira and remediate,", , ",18,
+Authenticate to Microsoft Graph through multiple user identities with Tines Pages,,8,Matthew at Alteryx
+Create just-in-time access requests and manage users,,33,
+Flip a coin,,6,
+Chat with AWS Bedrock in Slack threads,", ",10,Michael Tolan
+Report on inactive Okta accounts using Tines cases and deactivate,,19,
+Manage GitHub pull requests via Slack,", ",14,Conor Dunne
+Search and Update Splunk Notable with VirusTotal Enrichment with case management and Microsoft Teams notification,", , ",18,
+Retrieve Proofpoint events and log issues in Jira,", , , , ",11,Michael Tolan
+Fetch recent news and post to Bluesky Social with article links,,4,
+Ingest Tines audit logs into Datadog,", ",7,Aron Day
+Analyze vulnerabilities from JupiterOne by source account,", , ",12,
+Review Azure Activity Reports for inactive user and licenses,", ",12,Conor Dunne
+Create issues in GitHub and Jira from findings in Semgrep,", , ",20,Conor Dunne
+Check arrays for common elements using formulas,,17,
+Manage Qualys EC2 vulnerabilities in Jira,", ",25,
+Advanced Live Response tool for Microsoft Defender powered by Tines pages,,112,Horia Todoran
+Run commands and scripts with Tines,,9,
+Run a query in Snowflake,", , , ",5,
+Block suspicious IPs by creating firewall rule groups with CrowdStrike,", ",17,
+Retrieve files from devices in CrowdStrike,", ",47,Conor Dunne
+Add IOCs from Pulsedive to Azure Sentinel,", ",5,
+Analyze open issues in Wiz with ChatGPT,", ",12,
+Add alert evidence from Armis to Drata controls,", ",8,
+Create Jira issues for new alerts from Google Alert Center,", ",8,
+Initiate CrowdStrike RTR memory dump,,17,
+Manage held queue messages in Mimecast,", ",19,
+Approve user access to Okta or Office 365 using Pages,", , , ",44,
+Add devices in Kandji to Google Sheets,", ",7,Michael Tolan
+Triage email attachments with Material Security,", ",13,
+Implement data loss prevention policies,", , ",35,
+Create a contact form using Tines Cases and Records,,4,
+Submit and analyze PDF for IOCs with Tines,", ",14,Michael Tolan
+Receive enriched IP information via Slack,", , , ",6,Aaron Sandow
+Examine a file in CrowdStrike FalconX Sandbox,,15,
+Analyze SMS phishing with the AI action,", , , ",33,Michael Fischler at Roblox
+Triage Slack help desk queries,", ",28,
+Monitor application access changes in Okta,,18,Michael Tolan
+Remediate PagerDuty alerts,", ",23,
+Verify a user using Slack and Okta verify,", ",27,
+Analyze vulnerabilities from JupiterOne by severity,", , ",30,
+Create Zendesk Ticket via Google Forms,", ",8,
+Hunt IP addresses in GreyNoise,,11,
+"Handle, enrich and notify teams of new Qualys alerts",", , ",20,
+Manage departing employee watchlists in Code42,,14,
+Create Tines Cases from Elastic Common Schema,,21,Conor Dunne
+Send Tines case notifications to subscribers in Slack or Teams,", , ",26,Michael Tolan
+Move security logs from Google Workspace to Elastic Security,", ",4,
+Import Story backups from GitHub to Tines,,43,
+Investigate & remediate critical container vulnerabilities in Aqua Security Cloud Workload Protection Platform,", ",24,
+"Retrieve user, device, and vulnerability data in Axonius",", ",29,
+Geolocate IP addresses,,5,Michael Tolan
+Detect and remediate high AWS EC2 CPU usage with Elastic Observability and document with Tines cases,", , ",27,
+Close CrowdStrike detections when ServiceNow incidents are resolved,", ",4,Conor Dunne
+Generate new vulnerability scan reports with Qualys,,15,
+Gather & add correlated searches in Splunk Enterprise Security to Drata,", ",14,
+Determine severity of LimaCharlie detections and triage,", , ",21,
+Generate MITRE ATT&CK Navigator layout from Tines cases,,9,Conor Dunne
+Upload compliance evidence to Drata,,14,
+Analyze malware with Intezer using pages,,10,Conor Dunne
+Monitor large downloads by employees in Netskope and create Jira issues,", ",11,Michael Tolan
+Search and view Indicators of Compromise from MISP events,,12,Conor Dunne
+Save Tines Story in AWS S3,,5,
+Interact with a device controlled by VMware Carbon Black,,17,
+Utilize Tines prompts in Slack without opening a new browser tab,", ",8,
+Generate sample security alerts with Tines or Cortex XDR,", ",10,Conor Dunne
+Manage indicators of compromise in SentinelOne with Tines pages,,15,Conor Dunne
+Create on-call Slack channels using OpsGenie groups,", ",10,
+Generate a CrowdStrike RFM Report with AI,,24,Tom Power at University of British Columbia
+Handle GitHub notifications and notify Slack,", ",17,
+Using the Microsoft Office 365 management API to view audit logs,,9,
+Track & add background check evidence to ensure regulatory compliance in Drata,,7,
+Tracking state in Tines Resources,,6,
+Build a conditional counter loop,,8,
+Send email and post contents to Slack,,3,
+Cleanup inactive users in AWS IAM,", ",43,
+Dynamically set implode mode size,,3,
+Convert structured JSON to HTML and send via email,,5,
+Explode & implode data multiple times,,9,
+Enrich a list of CVEs using Recorded Future via a form,,17,Derek Wohlfahrt
+Search Google Sheets information via Slack,", ",13,
+Distribute decision making using ChatOps,,12,
+Delete an email from a specified user's mailbox,,4,
+Retrieve & deduplicate Google Chronicle alerts,,5,
+Filter results when using implode mode,,19,John Tuckner
+Query Snyk & gather a vulnerability report,", ",13,
+Assume a new AWS role and execute commands using Boto3,,3,
+Monitor & respond to Slack queries from external users & respond using Zendesk,", ",80,Lasse Høgsholt
+Provide compliance information after signing an MNDA in Docusign eSignature,", ",14,
+Enrich CrowdStrike incidents with VirusTotal & send to TheHive,", , ",25,Conor Dunne
+Look for & remediate new breaches using Recorded Future,", , ",24,
+Create issues utilizing custom fields in Jira,,5,
+Fetch recent cybersecurity news and post to LinkedIn,", ",6,
+Make a query in Google BigQuery,,12,
+Export CrowdStrike detections to OneDrive as CSV,", ",5,Michael Tolan
+Receive and analyze emails with rules in Sublime Security,,13,
+Analyze files with VMRay,", , , ",31,
+Query AWS IAM users in groups,", ",5,Shaun Finn
+Isolate machines in Microsoft Defender,,23,Conor Dunne
+Organize new form responses in Google Sheets,", ",3,
+Create instant Google Meets via Slackbot,", ",5,Eoin Magner
+Create and update Tines Cases from questions in Slack,", ",72,Lasse Høgsholt
+Create a survey with charts using Pages,,8,
+Search Splunk Enterprise logs,,13,Conor Dunne
+Detect and alert performance issues in devices using Elastic and Slack,", ",4,Tines and Conor Dunne
+"Extract, analyze, & enrich IPs from a WebEx chatbot",", ",7,
+Notify users of open tickets in TheHive,", ",10,
+Search Okta logs for user or IP activity,,12,Michael Tolan
+"Hunt, contain, and escalate threats with Thinkst Canary",,31,
+Create shift handover notes in Confluence send reminders in Slack,", , ",13,Michael Tolan
+Analyze GitHub pull requests for vulnerabilities with ChatGPT,", ",5,
+Create and escalate Jira issues for GitHub Advanced Security findings,", , ",6,Conor Dunne
+Monitor Azure AD MFA fraud alerts and track in Jira,,10,Nate Adams at Sophos
+Retrieve vulnerabilities from SonarCloud and suggest code fixes in GitHub,", , ",13,Conor Dunne
+Trigger offboarding in Grip Security,,8,
+Create Tines story documentation using ChatGPT and store in Notion,,10,
+Analyze potential SMS phishing attacks and raise incidents in Jira,", , ",22,Rajesh Kumar
+Add host vulnerabilities in Lacework to Drata controls,", ",8,
+Conduct IP address search using Cribl,,14,Igor Gifrin at Cribl
+Sync assets between Kandji and runZero while updating ownership,", ",18,
+Search Jira for open SLA breaches,,22,Nick Page
+Case Lifecycle Management,,33,Brandon Maxwell
+Lookup a host in CrowdStrike,,12,
+Receive Azure Sentinel alerts and block IPs with firewall rules,", ",15,Conor Dunne
+Remediate compliance violations with Lacework,", , ",12,
+Export Tines records to OneDrive,", ",4,Michael Tolan
+Receive & remediate SNS notifications from AWS Config,", ",43,Shaun Finn
+Enrich SentinelOne alerts with Stairwell Inception,", ",19,
+Extract text from a PDF or image with AWS Textract,,38,
+Query for & protect emails in Material Security,,24,
+Run a simulated phishing attack,", , ",22,Conor Dunne
+Find and reboot devices with failed Microsoft Intune updates,", ",6,Conor Dunne
+Transform alerts to the OCSF format using ChatGPT and create a case,,14,Tines
+Get fun quotes from TV shows like The Simpsons and The Office,,7,
+Enrich & remediate suspicious logins reported in Okta using Cases & Records,,56,Sam Olson at Omada Technologies
+Search for IOCs in MISP default feeds,,8,Sif Baksh
+Backup Tines stories to Google Cloud Storage,", ",24,Michael Tolan
+Send multifactor push prompt in Azure Entra ID,,20,Nathan Collings at Holland & BarrettJohn Tuckner
+Add JA3 client blocklist from Abuse.ch to AWS firewall rule,", ",17,
+Submit indicators of compromise to CrowdStrike's watchlist,,53,
+Interact with a site with Browserless,,23,Michael Tolan
+Transfer cases between Tines case groups based on criteria,,28,Michael Tolan
+Complete PDF forms in DocSpring using Tines pages,,23,Conor Dunne
+Create GitHub issues from Sumo Logic alerts,", ",10,
+Capture product feedback and post it to Slack,", ",23,Tines
+Send Bulk Updates To Salesforce,,12,
+Retrieve software vulnerabilities from Fleet for a given host,,6,Dave Herder at Fleet
+Retrieve a file from a CrowdStrike endpoint,,24,Conor Dunne
+Schedule a story,,22,Conor Dunne
+Analyze attack surface for an organization with Criminal IP,", ",22,
+Monitor Tines audit logs for action changes and send Slack alerts,", ",7,
+Get failing test resources in Drata,,7,
+Using Records to improve story performance in Tines,,51,
+Identify EC2 instances missing tags and configure them with a Tines page,", ",10,Conor Dunne
+Analyse an IP in Shodan,,10,Michael Tolan
+Ingest Tines audit logs into Sumo Logic,", ",7,Aron Day
+Summarize suggested changes in Tines stories with AI,,12,Tyler Talaga and Caleb Williams at MyFitnessPal
+Download PCAP from Endace Probe triggered by intrusion detection,", ",26,Roberto Cordeiro at Endace
+Employee recognition app with BambooHR and Slack,", ",20,
+Create Linear issues from Slack message reactions,", ",14,Tines and Conor Dunne
+Search Elastic alerts,,17,Michael Tolan
+Monitor and remediate inactive Kandji devices with Tines Cases,", ",23,Michael Tolan
+Reset a user's password in Okta,,8,Conor Dunne
+Loop over an array to find high severity alerts,,3,
+Rate limit requests to an API,,4,
+Remove duplicates from arrays across Story runs,,6,
+Navigate complex data structures with Tines' JSONPath function,,12,Derek Wohlfahrt
+Fetch & record significant vulnerabilities from Qualys Container Security,", ",13,Aaron Sandow
+Onboard employees with flexible forms,", , ",14,
+Copy & update a Google Docs template in a shared folder,,8,
+Lookup user in Okta,,17,Michael Tolan
+Retrieve related domains using DomainTools' Iris Investigate,,20,
+Prompt a user for a response through email,,9,
+Manage Jira issues via Slackbot,", ",94,
+Analyze URLS for fraud and abuse,,9,
+Retrieve new alerts from Microsoft Defender and create issues in Jira,", , ",21,Michael Tolan
+Retrieve and grant manager access to employee's OneDrive,,10,Zach Strickland
+Format key value pairs as a markdown table,,5,Adam Maksimuk at Navan
+Escalate alerts which users have not responded to,,14,
+Enrich CrowdStrike detections with Active Directory and correlate in Jira tickets,", , , ",24,
+Use OpenAI to create Tines Actions,", ",3,
+Retrieve & enrich IOCs across multiple platforms,", , , , ",14,
+Export recent Okta logs to AWS S3,", ",10,
+Add suspicious domains to Google Chronicle reference list,", ",5,
+Communicate across channels in Microsoft Teams and Slack,", , ",15,Michael Tolan
+Retrieve emails from Outlook and add the details to a Microsoft OneDrive spreadsheet,", ",9,Conor Dunne
+Create Terraform Infrastructure as Code,", , , , ",16,
+Generate a Tines Story visual,,4,
+Add device to group in CrowdStrike temporarily,,15,
+Close similar issues in Jira,,13,Michael Tolan
+Send new Notion database entries to Google Sheets,", ",3,
+Search Notion for information,,10,
+Retrieve info from websites with Beautiful Soup,,5,
+"Activate holiday cheer with Shelly, Spotify, and Tines",,32,Colleen Gallagher
+Update Excel files in OneDrive through email attachments and Pages,", ",26,
+Analyze file in AlienVault OTX,,29,Troy Wegner
+Enrich OpenCTI malware analysis with VirusTotal observables,", ",21,Conor Dunne
+"Create, update and run AWS Lambda functions",,39,
+Create Zendesk tickets via Tines Forms,,9,
+Utilize AWS Lambda functions,,1,
+Add known exploited vulnerabilities to Recorded Future,,6,
+Sensitive files shared to personal email,", , ",26,Brandon Buhrs at Mambu
+Compare AI responses across large language models,,10,Tyler Talaga at MyFitnessPal
+Analyze queried tweets based on keywords,,29,
+Analyze quality of tickets in ServiceNow,,10,Michael Tolan
+Discover new objects in collections provided by the MITRE TAXII server,", ",10,Conor Dunne
+Create Google Calendar events from Notion database,", ",9,Jesse Johnson at Material Security
+Sync recent Outlook Calendar events to a Notion database,,3,Michael Tolan
+Analyze suspicious files with Any.run,,15,
+Monitor Panther alerts & remediate SSH brute force attacks,,19,Eoin Magner
+Analyze a file in Hybrid Analysis,,32,Martin Moroney
+Backup Tines Stories to GitLab and notify Slack,", , ",45,Michael Tolan
+Add Notion database entries as Outlook calendar events,", ",4,Michael Tolan
+Facilitate two-way communication between Slack & Zendesk,", ",33,Lasse Høgsholt
+Create a risk register using Tines records,,12,Conor Dunne
+Build and send a weekly metric review,", ",29,Joe Frederick at Credit Karma
+Send reminders for risk register updates,", ",15,Conor Dunne
+Automate AWS Account onboarding to Zanshin,,12,
+Query AWS CloudTrail for a user's recent API calls,,11,
+"Handle malware alerts with CrowdStrike, Oomnitza, GitHub, and PagerDuty",", , , ",25,Lucas Cantor at Intercom
+Send push notifications in Duo Security,,23,
+Analyze suspicious URLs with Any.run,,15,
+Audit & enforce compliance on endpoints with SimpleMDM,", , ",49,
+Execute a script on an endpoint with Microsoft Defender Live Response,,21,Conor Dunne
+Add expense receipt photos to Navan,,5,
+Process CrowdStrike detections with Intezer,", , , ",22,Aaron Sandow
+Send a text with Twilio,,5,
+Initiate Terraform request to create Infrastructure as Code,", ",5,
+Sync Tines case comments with Hunters leads,", ",7,
+Search Jira for Issues,,8,Michael Tolan
+Respond to security alert,,30,Conor Dunne
+Perform SQL searches in Panther,,15,
+Scrape CVE information using Browserless and send an email to users,,9,Michael Tolan
+Create snapshot and isolate a compromised AWS instance,,25,Conor Dunne
+Manage temporary EC2 instances for development and testing and send notifications in Slack,", ",95,
+Get end of life details for a product,,12,Michael Tolan
+Lookup user in multiple platforms,", , , ",11,Michael Tolan
+Message into Slack based on Jira queries,", ",8,Michael Tolan
+Receive password breach alerts from SpyCloud and secure accounts,", , , ",23,Conor Dunne
+Submit and analyze IOC with Cybersixgill via Tines Pages,,12,
+Search for IOCs and create incidents in DataDog,,16,Conor Dunne
+Search & sort SLA breaches in TheHive,,17,
+Onboard users to OctoPerf via Slack or Jira,", , ",29,
+Fetch rule results from Recorded Future Attack Surface Intelligence & open Jira tickets,", , ",31,Aaron Sandow
+Respond to & configure Terraform Cloud run task,", , , ",16,
+Manage Jira custom fields and individual issue values with Pages,,21,Conor Dunne
+Create a ServiceNow incident from Slack,", ",7,Conor Dunne
+Manage IOCs in CrowdStrike Using Tines Pages,,32,
+Upload & track asset management information from Tenable in Drata,", ",8,
+Monitor a host's resources using playbooks in Ansible Tower,", ",14,Conor Dunne
+Handover Oncalls in Opsgenie with Tines Cases,", , ",17,
+Append data to Google Sheet,,16,
+Create an OAuth application using Tines pages,,7,
+Manage Okta apps using pages in Tines,,67,Michael Tolan
+Update groups assigned to a user in Microsoft Entra ID,", ",58,Michael Tolan
+Extract SentinelOne alert evidence & upload to Drata controls,", ",8,
+Manage Velociraptor artifact collection via Slack,", , ",9,Conor Dunne
+Monitor and patch Tanium machines via Tines,", ",31,
+Rotate AWS IAM access keys and update Tines credentials,", , ",16,Michael Tolan
+Remediate AWS IAM alerts detected with Wiz using Slack and Jira,", , , ",36,Conor Dunne
+Log events for auditing using Tines story monitoring,,6,
+Respond to Okta alerts with Mattermost & Jira,", , ",20,
+Check updated CVEs for exploitation using VulnCheck and GreyNoise,", ",11,
+Fetch & block high-risk domains with DomainTools and NextDNS,", ",25,DomainTools
+Report and lock lost devices in Jamf with Okta SSO,", , , ",27,Sakil Khan
+Retrieve and respond to Azure guest accounts detected by Wiz,", , ",20,Conor Dunne
+Receive and Remediate Security Hub S3 findings from Amazon Security Lake,", ",13,
+Manage Logz.io SIEM Alerts,", ",5,
+Add Malwarebytes policy evidence to Drata controls,", ",6,
+Scheduled rotation & tracking for AWS Access Keys in Drata,", , ",29,
+How to optimize Tines Stories,,81,Colleen Gallagher
+Check Thinkst Canary alerts in GreyNoise and record in runZero,", , ",7,Justin Varner
+Disable new MFA devices in Okta,,6,Michael Tolan
+Register and handle Discord interactions,,11,Yannick Gloster
+Manage GitLab issues in Slack,", ",47,Conor Dunne
+Share reminders for company holidays,", ",15,
+Create high severity alerts in Devo SIEM for analysis,,4,
+Calculate business days between dates,,3,Anthony Milazzo
+Sign up for a 24-hour relay using Tines Pages and Records,,11,
+Refresh Okta zones with latest active Zscaler IP ranges,", ",16,
+Handle Opsgenie alerts and create a Tines case,", ",24,
+Monitor web services for availability via Pushover,,6,
+Analyze a file with Workbench,,3,Michael Tolan
+Manage endpoint quarantine status,,16,Conor Dunne
+Real-Time API Threat Detection and Mitigation with Traceable.ai and AWS WAF,", , ",14,
+Build and search MITRE ATT&CK semantic index in Elastic,", ",18,Michael Tolan
+Update URL lists used by Remote Browser Isolation in Netskope,,7,
+Notify recipient of quarantined email and create Tines case if opened,", ",5,Michael Tolan
+Search files for sensitive data and secrets,,13,
+Push incidents from Jira to Drata,", ",4,
+Filter or reject elements in an array,,44,Lasse Høgsholt
+Handle complex conditional logic,,16,
+Sublime Security trashing workflow,,17,Andrew Katz at Jamf
+Run a Real Time Response command in CrowdStrike,,12,Conor Dunne
+Read unread emails & analyze any URLs mentioned,", , ",22,Shaun Finn
+Manage time formats in Tines,,7,
+Create a todo list API,,28,
+Import RSS feeds into Anomali Threatstream as threat bulletins,,14,
+Create credentials that reference 1Password vaults,,24,
+Monitor domains using URLScan,,24,
+Export Confluence pages using Tines pages,,16,Dermot Bruce-Agbeko
+Who wants to be a Tino Millionaire?,,44,Eric Oyola
+Monitor email inbox for sales leads,,6,Michael O'Connell
+Self service helpdesk with AI and Pages,,28,Connor Brewer at Uzado Inc.
+Set EC2 Security Groups for an instance,,4,Michael Tolan
+Retrieve domain information with RiskIQ PassiveTotal,,20,
+Manage long-running jobs and check job status in Workbench,,16,
+Update a lookup file in Cribl,,12,
+Monitor Invary appraisals and isolate threats with Elastic Fleet,", ",11,
+Add video conferencing and meeting notes to new Google Calendar events,", , ",22,
+Create and update records with changes to Tines cases,,11,Conor Dunne
+Create a dynamic drop down menu in Slack,,12,
+"Extract CSV attachment from email, update OneDrive and refresh Power BI",", ",6,Michael Tolan
+Correlate data across Jira issues,,14,
+Implement exponential backoff and retry with an escape,,10,
+Enrich FalconLogScale (Humio) events with ChatGPT,", , ",3,@ionstorm
+Process SpyCloud breach data and generate a case in Tines,", ",22,Tines
+Create expressive pages in Tines,,11,
+Rotate AWS access keys on schedule,,23,
+Extract IOC's from a PDF with PDF.co and IOCParser,", ",19,Michael Tolan
+Reduce manually blocked items from Sophos Central in favor of auto-blocking,", ",38,Nate Adams at Sophos
+Remove public access permissions in Google Drive,", ",12,Michael Tolan
+Check IPs in Shodan for unexpected open ports,", ",13,
+Develop and test Cloudflare WAF rules with immediate analysis,,16,Conor Dunne
+Take out the trash in Gmail,,16,
+Add open spec files from Traceable to a GitHub repository,", ",15,
+Capture all offline devices with Cisco Umbrella,,6,
+Perform a unit test on a story in Tines,,10,Pete Wrenn
+Download Code42 Cases,,7,
+Download files from Elastic Agent host via a Tines Page,,14,
+Alert on AWS Backup changes and record in CodeCommit,", ",32,Conor Dunne
+Enrich a user with their organization details in Azure Active Directory,,40,
+Respond to a CrowdStrike detection in ServiceNow,", ",28,
+Process new ServiceNow incidents,", ",3,
+Enrich & document Recorded Future alerts,", , ",27,
+Search for IoCs in a network when a MISP attribute is created,", , ",15,Conor Dunne
+Bootcamp - Pages and Applications (ValenTines Edition),,8,
+Remove 3rd Party Apps marked for removal in Netskope SSPM,", , ",6,Netskope
+Track Okta Active Directory agents using Records and Microsoft Teams,", , ",11,Taylor Rainwater at Fortune Brands
+Run a job in Ansible and retrieve results,,17,
+Get brand assets and information,,2,
+Analyze vulnerabilities from JupiterOne by source account using Tines Cases,", , ",15,
+Analyze VSCode extensions seen by Fleet with ExtensionTotal,", ",7,
+Turn on Christmas lights with VeSync and celebrate with Spotify,", ",11,
+Retrieve IBM HCL Appscan results and document in Tines Case Management,,9,
+Use a Tines Page to analyze known vulnerabilities from Tenable,", , ",12,
+Query Shodan for findings and alert on them using Slack and Jira,", , , ",11,
+Close Jira tickets if JupiterOne vulnerabilities are resolved,", ",17,
+"Create, update & store an email distribution list in Tines",,14,Aaron Sandow
+Execute Python code,,4,
+Enrich clicked URLs from Proofpoint and block with Zscaler,", , , , ",13,Michael Tolan
+Monitor Okta for invalid sign-in attempts and resolve via Slack,", , ",14,
+Check if an email address is approved or not,,7,
+Query Snowflake via Slack and return results as CSV,", ",12,Michael Tolan
+Retrieve alerts from Microsoft Defender for Cloud and create detailed issue in Jira,", , ",20,Michael Tolan
+Retrieve AWS Cost Explorer data and email a CSV report,,15,Michael Tolan
+"Gather & enrich evidence between Analyst1, Sublime Security, and Drata",", , ",48,
+Create email filters for a user in Gmail,", ",8,Conor Dunne
+Triage phishing alerts with Sublime,", ",16,
+"Investigate a URL with URLScan, create a ticket in Jira and take action",", , , , , ",41,
+Send notifications for updates in a Notion database,,11,
+Find missing devices in CrowdStrike,,10,Conor Dunne
+Investigate and remediate malware with CrowdStrike FalconX and Microsoft Defender,", , , ",34,
+Authenticate and execute various actions in Akamai,,14,
+Search Shodan using Shodan Query Language,,8,Michael Tolan
+Create an identity federation between GCP and AWS,", ",5,Marcus Hallberg at Spotify
+Manage shift turnover with Handogotchi,", ",41,Valentine Mairet
+Review apps in Lumos for inactive approvers and notify Slack,", ",12,Michael Tolan
+"Ingest, enrich, and remediate ExtraHop alerts and block suspicious URLs with Zscaler",", , , , , ",15,
+"Process CrowdStrike detections, check hashes in VirusTotal, and create tickets in IRIS",", , ",16,Michael Tolan
+Utilize scenarios in Octoperf and retrieve analysis reports,,44,
+Remind employees to take time off with BambooHr & Slack,", ",10,
+Fetch rule results from Recorded Future Attack Surface Intelligence & open ServiceNow tickets,", , ",30,Rosie Halpin and Aaron Sandow
+Retrieve raw browser history artifacts from devices in CrowdStrike,,70,Ahmad Aziz at Booking.com
+Rickroll users in Slack,,8,Andrew Katz at Jamf
+Pull & add IOCs from Malware Traffic Analysis to Drata controls,", ",13,
+Monitor Duo Security logs for new MFA devices,,15,
+Review OAuth application access with AppTotal,,9,
+Run a Forensics Lab in Tines,,119,Todoran Horia
+Use auto-submitting pages to capture user data and update Jira,,6,Michael Tolan
+Retrieve all subdomains & resource records for a domain with Farsight DNSDB by DomainTools,,16,
+Create a security incident in Airtable,,6,
+Search Axonius for devices and enrich with VulnCheck,", ",48,Michael Tolan
+Triage Google Chronicle cases from Slack,", ",43,Sakil Khan
+Run forensics on an endpoint file in CrowdStrike,,33,Conor Dunne
+Analyze AWS IAM policies for sensitive access permissions,,15,Michael Tolan
+Receive a Request for Device Approval into Tailscale and Check Axonius,", , ",17,
+Create AWS RDS databases from a backup via Slack,", ",47,Conor Dunne
+Reset Google account password and notify via Slack,", ",13,Conor Dunne
+Comment on Jira issue if email subject contains issue key,,7,Michael Tolan
+Send Google Workspace security logs to ELK,", ",6,
+Generate and email real-time vulnerability reports from Socket,,9,
+Request updates to stale Jira issues,,11,
+Get a list of credentials without domain restrictions in Tines,,14,
+Work with Tines data using the Tines API,,49,
+Manage Salesforce lead capture with Tines pages and cases,", ",46,Conor Dunne
+Invalidate authentication sessions for a user in Okta,,14,Conor Dunne
+Emit a string from an extracted array,,3,
+Get asset vulnerability information from Tenable,,30,Michael Tolan
+Create and manage temporary email addresses with Tines,,21,Michael Tolan
+Create incidents in Anomali Threatstream from Recorded Future alerts,", ",7,
+Run a job using Ansible Tower,", ",11,
+Monitor Tines actions with Records,,9,Charles Himmelein at Capital Group
+Request and approve access to new tools with an audit trail,", , , , ",31,Michael Tolan
+Create an API to manage indicators of compromise,,58,Conor Dunne
+Graph issue response and closure times for a project in Jira,,27,
+Scan a URL in Criminal IP,", ",11,
+Create ServiceNow incidents from SpyCloud alerts,", ",24,SpyCloud
+Manage Fleet compliance policies using Tines cases,,102,Conor Dunne
+Send SMS with Twilio if assigned to a Case in Tines,", , ",15,Michael Tolan
+Monitor and delete old CLI projects in Snyk,,9,Andrew Orr Ewing at Applied Systems
+Grant temporary console access to AWS services with Tines pages,,20,Michael Tolan
+Manage LimaCharlie sensor isolation with Tines pages,,11,
+Manage AWS Inspector findings with ServiceNow,", ",11,
+Lookup devices in Lansweeper using a Slack command,", ",10,Conor Dunne
+Social Interact Made Easy with Virtual Coffee Bot,,36,
+Sync on-call engineers from PagerDuty to Bowtie access groups,", ",16,Michael Tolan
+Roll back AWS EC2 instances to previous snapshots using tags,,62,Conor Dunne
+Add HIPAA training evidence to Drata,,7,
+Get IP address information,", ",9,Michael Tolan
+Use Slack to record specific Wiz insights in TheHive,", , ",26,
+Create Sublime Security rules using Recorded Future threat intel,", ",24,
+Manage Google Calendar swiftly when unexpected alerts trigger,", ",42,
+Query GreyNoise for CVEs and update blocklist,,7,
+Analyze an email address in multiple services,", ",4,Michael Tolan
+Get info from Salesforce,,11,
+Send daily Google Calendar reminders in Slack with notes integration,,19,Michael Tolan
+Create and manage an Email API through Tines,", , ",33,
+Track issues across GitHub and Zendesk,", ",28,
+Record CVE findings from Wiz in MongoDB,", ",10,
+Provide a password reset page for Okta,,8,
+Review team member access in Tines,,14,
+Get EC2 Security Groups for an instance,,17,Michael Tolan
+Add user to Entra ID,", ",11,
+Detect and Enrich Sysdig Alerts with Risky User with Greynoise and Deny User from AWS Console Login,", , ",11,Manuel Boira at Sysdig
+Review Snyk organization findings with Jira issues,", ",66,Andrew Orr Ewing at Applied Systems
+Provide a password reset page in Tines,", , ",18,Michael Tolan
+Receive and correlate alerts from Sysdig,", , , ",10,
+Retrieve the code owners of a file in GitHub,,31,Conor Dunne
+Build a software report in runZero enriched with software end of life dates,", ",11,Conor Dunne
+Lookup and retrieve subdomain certificate information using Censys,,7,Conor Dunne
+Retrieve domain risk scores in Slack using DomainTools API,", ",13,
+Manage users and assign secrets for API access,,51,Conor Dunne
+Select a Slack user at random,,7,
+Share secrets with others using pages,,27,Michael Fischler at Roblox
+Offboard employees using HiBob,", , , ",18,
+Deallocate and delete unnecessary virtual machines in Azure and raise tickets,", , ",27,Michael Tolan
+Fetch issues and evidence from Noname Security and process in Splunk,,10,
+"Receive New Relic alerts, create Tines cases, and restart AWS instances",", ",12,
+Verify User Identity through slack with Okta/Yubikey OTP,,15,Pendie Garrett at Credit Karma
+Monitor Discord servers for leaked secrets and send alerts,,20,Liam Malone
+Send simple messages or cards to Google Spaces,,20,
+Paginate over the Tines API using multiple methods,,16,Conor Dunne
+Export Splunk SOAR cases to Tines,", ",26,
+Monitor and analyze domain's digital footprint with Silent Push,,10,Jonathan Peyster at Silent Push
+Identify and resolve false positive AWS alerts in Orca,", , ",23,
+Create a takedown case in Phish Report,,8,Michael Tolan
+Raise Jira requests using Tines Pages and notify Slack,", ",8,Michael Tolan
+SIGMA converter for YAML,", ",10,Nathan Collings at Holland & Barrett
+Search for assets in Axonius,,39,Michael Tolan
+Lookup a file in VirusTotal,,26,Michael Tolan
+Gather correlated Splunk searches and add to Anvilogic use cases,,10,
+Process OT detection alerts in Claroty and document in Jira,", ",11,
+Detect and remediate malware issues in Wiz with SentinelOne and The Hive,", , , ",22,
+Schedule SBOM and SPDX creation in Snyk and store in Sharepoint,,32,Andrew Orr Ewing at Applied Systems
+Escalate cases to emergency resources with Twilio,", ",29,Michael Tolan
+Notify users of safe email reports in Sublime Security,,3,Aiden Mitchell
+Identify and remediate high AWS EC2 Disk Usage with Elastic Observability and document with Tines cases,", , ",9,
+Manage access to web pages with Island browser,", ",21,Conor Dunne
+Review OAuth application access in Azure and track in Tines cases,,20,Conor Dunne
+Monitor Digital Shadows alerts by tracking and updating within Jira,,15,
+Save Tines Story in Google Cloud Platform,,5,
+Create VirusTotal domain reputation summaries using NVIDIA AI,", , ",18,Conor Dunne
+Create issues in Jira for Sysdig vulnerability findings,", ",13,
+Manage AWS Macie findings with Tines cases,", ",17,Conor Dunne
+Format and post long messages as a single thread on X,,12,Michael Tolan
+"Ingest Opsgenie alerts, enrich data, and create Jira issue with notifications in Slack",", , , , , , ",16,
+Monitor website certificates for expiration,", , ",26,Conor Dunne
+Monitor a domain for risk score changes with DomainTools' Iris Enrich,,28,
+Add evidence of device updates to Drata,,9,
+Discover leaked email passwords and personal information with DeHashed,,11,
+Pivot on artifacts related to a domain with DomainTools' Iris Investigate,,11,
+Handle cloud compliance notifications with Sysdig,", ",4,
+Add external IOCs to custom list in Infoblox ThreatDefense,,21,Sif Baksh
+Replay Data with Cribl into Elastic Security and Isolate Hosts Using Elastic Agent,", ",20,
+Get routine security updates and create cases based on calculated severity,,20,Michael Tolan
+Request and approve temporary AWS S3 access with pre-signed URLs,", ",23,
+Enrich Canarytoken alerts and notify the security team,", ",12,Dennis Chow
+Generate SecurityScorecard issue report and create Jira tickets for new issues,", ",9,Conor Dunne
+Run asset vulnerability scans & add evidence to compliance system,", ",24,
+Scan Okta logins with Spur for proxies and VPNs and raise a case in Tines,", , ",20,Michael Tolan
+Run command & control tasks in Mythic using Slack,,8,
+Enrich WAF Alerts with GreyNoise,,10,
+Automate Response to Data Risk with Tines and Code42 Incydr,", , ",13,
+Manage CyberArk access requests using Slack,", , ",23,Conor Dunne
+Create or suspend role in Google,,18,
+Generate pretexts for sockpuppet accounts using OpenAI,,7,Aaron Wilkinson at Orbia
+Track issues across Tines and Zendesk,,28,
+Record container vulnerabilities from AWS Inspector in GitHub,", ",8,Liam Malone
+Send employee probation reminders to managers using BambooHR,,16,
+Update CrowdStrike Real Time Response script from AWS S3,", ",7,
+Reimage AWS instance,,25,Shaun Finn
+Generate a Tines case incident response timeline,", ",18,Conor Dunne
+Automate procure-to-pay requisition and approval,,64,Stephen Creedon and Peter Coleman
+Disable AWS User from Hunters Alert with Jira prompt,", , ",13,
+Create or suspend role in CrowdStrike,,13,
+Allow developers to manage OIDC applications in Okta,,8,Florian Baumgartner at IMC
+Process & enrich Cylance detections,", , , ",29,
+Implode an unknown number of events resulting from time-based explodes,,15,
+Add anti-virus evidence in Drata,,9,
+Store images and send as email attachments,,3,
+Enrich IPs with VirusTotal Enterprise,,8,
+Perform Google Workspace access review,", ",11,Rosie Halpin
+Alert users of potential breaches detected by SpyCloud.,", ",9,Conor Dunne
+Event Transform Modes Explained,,22,
+Build a long running process results page in Tines,,8,
+Overwrite data in Tines prompts,,6,
+Verify Slack signatures are authentic,,9,
+Capture and post handover notes in Slack using a Zendesk lookup,", ",8,
+Split a large array into smaller arrays,,9,
+Change GitHub repository from public to private,,15,
+Manage Sharepoint sites,", , ",20,Shaun Finn
+Assess potential AWS IAM security vulnerabilities with OpenAI,", ",15,
+Group related issues in Jira,,10,
+Add endpoints to a trusted device list in Duo,,6,Mike Toole at Blumira
+Remediate vulnerabilities identified by AWS Inspector v2,", ",16,
+Collect CPU and RAM usage on an endpoint with Tines and CrowdStrike,,35,Conor Dunne
+Log alert types in Tines resources,,12,
+Export CrowdStrike detections to Google Cloud Storage as CSV,", ",6,Michael Tolan
+Use resources to facilitate decision-making,,15,
+Report KMSAT events in KnowBe4 with pages,,9,
+Retrieve a directory from an endpoint using CrowdStrike and save to Google Drive,", , ",22,Conor Dunne
+Upload a file to Google Cloud Storage,", ",7,Michael Tolan
+Randomly select a number of items from an array,,10,
+Analyze email attachment hashes from Sublime Security with VirusTotal,", , ",33,Michael Tolan
+Send Google Workspace security logs to AWS S3,", ",8,Michael Tolan
+Isolate & remediate AWS EC2 instance based on IOC,", , ",23,
+Utilize ChatOps to get feedback on alerts & changes within your environment,,13,
+Analyze quality of issues in Jira with Tines pages and records,,16,Michael Tolan
+Bootcamp - Tines Workbench,,11,
+Alert users of JupiterOne issues associated to their account,", ",13,Conor Dunne
+Send SpyCloud alerts to Anomali Threatstream,", ",9,Canva at Canva
+Build a timeout into a story,,13,
+Discover inactive Service Accounts in Google Cloud,", , , ",13,
+Launch DAST scan on web app via CI/CD pipeline,,16,Julien D.
+Add ID.me contacts to SalesForce,", ",4,
+Scan an invoice or receipt with AWS Textract,,24,
+Lookup third-party domain in Recorded Future,", , ",20,Aaron Sandow
+Recover deleted emails in Gmail,,12,
+Save attachments from emails in Microsoft Outlook to Microsoft OneDrive,", ",6,Conor Dunne
+Export Tines story time saved time series data to Google Sheets,", ",17,
+Create custom Gmail filters from Sublime Security findings,", , ",14,Conor Dunne
+"Retrieve Code42 alerts, send to Slack and suspend user in Okta",", , ",32,
+Migrate Tines Story from development tenant to production,,41,
+Generate a yoga flow routine with ChatGPT and Tines Pages,,3,
+Query Censys for known Command & Control IPs add as IoCs in CrowdStrike,", ",16,Michael Tolan
+Monitor CVE trends via Cybersixgill and alert on impacted assets in Tenable.io,", , ",6,
+Create issues using the Elastic Common Schema,", ",11,
+Calculate message similarity using the Levenshtein Distance function,,3,
+Celebrate new Tines Stories with Spotify,,10,Michael Tolan
+Import Tines Story from AWS S3,,5,
+Scan a file using Sublime Security,,10,Josh Liburdi
+Create and manage malware labs using Terraform Cloud,", ",47,Conor Dunne
+Analyze a hash with YARA rules using Abuse.ch YARAify,,13,Michael Tolan
+Provision AWS and Vault access via Okta,", , ",25,Zach Perry at PathAI
+Game: Guess the anime quote,,47,
+Enrich command line utility with LOLBAS information,,9,
+Connect with Trend Micro using Java Web Tokens,,9,
+Send follow up email to event attendees,,16,
+Backup and download logs from AWS S3 warm storage,", , ",45,Conor Dunne
+Regularly update insecure AWS EC2 security groups,,10,Michael Tolan
+Run Javascript with Google Cloud Functions,,2,
+Remove employee from a departing watchlist in Code42,,9,
+Communicate across chats in Intercom and Slack,", ",30,Conor Dunne
+Log Tines action failures and create issues to track,", ",8,Michael Tolan
+Discover & remediate public Tines pages,,18,
+Add hard drive encryption evidence to Drata,,8,
+Time-based Okta group membership,", ",11,Scott Bean
+Check Workday for unauthorized travel and alert in Slack,", , , , ",34,Muhammet Tekbicak
+Question a user and check response via Slack,,35,Michael Tolan
+Send emails to all users stored in an AirTable database,,8,Conor Dunne
+Generate a SBOM in Veracode,", ",9,
+Find & remediate public AWS S3 bucket access with Anecdotes,", ",16,
+Retrieve a list of suspicious objects from Trend Micro Apex Central,,3,
+Monitor VulnCheck KEV and alert on impacted assets in Tenable.io,", , ",6,
+Write descriptions for Tines stories using AI,,18,Tyler Talaga at MyFitnessPal
+Notify Microsoft Teams when issues in Jira have not been triaged,", ",11,Michael Tolan
+"Remove a user account in Microsoft Entra ID, BambooHR, AWS, and Slack",", , , , ",20,Michael Tolan
+Create an API from an image using ChatGPT,,9,
+Create versioned backups on Google Drive files using Box,", ",13,Conor Dunne
+Contain devices identified by CrowdStrike Falcon Overwatch,", ",17,Michael Tolan
+Manage user access to ChatGPT,,94,Conor Dunne
+Use Slackbots to understand jargon,,25,
+Create and populate a Google file,", ",17,
+Disable a user in Duo Security and Azure Entra ID while alerting PagerDuty,", , ",12,
+Manage Elasticsearch and GKE clusters via Slack bot,", , ",41,Christopher Cutajar at Elastic
+Triage Elastic Alerts and send to SIEM,,37,Ameer at CyberNX Technologies
+Manage Okta user groups and create Jira tickets via Slack,", , , , ",140,Sandeep Kumar
+Execute commands on EC2 instances using AWS Systems Manager,,26,Conor Dunne
+Create many new Microsoft Entra ID users using Tines pages,", ",16,Conor Dunne
+Monitor and manage Tailscale device enrollments via Slack,", ",6,Conor Dunne
+Run remote commands in LimaCharlie,,14,
+Manage Okta login threshold limit in Jira via Slack,", , ",15,
+"Filter, redact and securely distribute SpyCloud data",,14,SpyCloud
+Record and update affected Windows CrowdStrike host status using Smartsheet,", ",18,Taylor Rainwater at Fortune Brands
+Distribute IoC's using Pub/Sub in Google Cloud,,8,Conor Dunne
+Get NPM package files from GitHub and check for vulnerabilities,", , ",42,Conor Dunne
+Send AWS EventBridge events to Slack,", ",7,Conor Dunne
+Create dynamic groups in Azure Active Directory,", ",14,
+Fetch vulnerabilities in SecurityScorecard and add to Drata,", ",23,
+Add password manager evidence to Drata,,8,
+Retrieve a list of Trend Micro Apex Central's managed servers,,3,
+Get host log alerts from Devo SIEM,", , ",10,
+Get breach data from SpyCloud and track with Jira,,24,SpyCloud
+Save and retrieve files for reference,,15,Conor Dunne
+Analyze a hash with Recorded Future,,6,Michael Tolan
+Manage CrowdStrike IOC blocklist,,45,Michael Tolan
+Display data using Quickchart,,3,Michael Tolan
+Search Fleet for software on devices using Slack,", ",21,Conor Dunne
+Analyze Bugcrowd submissions with OpenAI and track in Jira,", ",4,Michael Tolan
+Routinely sync Jira issue details with DynamoDB,", ",10,Michael Tolan
+Lock a device in JumpCloud,", ",35,Nicolas Oropel at Eron International
+Update vulnerable hosts using ManageEngine Endpoint Central and Fleet,", ",14,Conor Dunne
+Generate images from text using Stability AI,,4,
+Retrieve overly permissive Google Cloud firewall rules with Wiz,", ",11,Conor Dunne
+Respond to publicly exposed files in Google Drive with Reco,", ",30,
+Send automated responses in Messenger,", ",8,Michael Tolan
+Update employee probation status with BambooHR & Slack,", ",21,
+List Tines records with artifact values,,9,Conor Dunne
+Detect unusual user activity with Material Security,", , ",11,Material Security
+Monitor Azure application secrets for expiration and alert,", , ",9,Michael Tolan
+Give kudos to coworkers using a Slack bot,", ",28,Adam Maksimuk at Navan
+Retrieve Google Security Command Center findings and create issues in Jira,", ",12,Conor Dunne
+Track Google search trends using SerpApi and save to OneDrive,", , , ",10,Michael Tolan
+Verify Route 53 A records use active Elastic IPs,,17,Michael Tolan
+Retrieve blocked DNS queries from AdGuard and enrich with VirusTotal and LimaCharlie,", , ",15,Conor Dunne
+Generate an SBOM with AWS Inspector and add to GitHub,", ",11,Liam Malone
+Receive and enrich cloud root login notifications in AWS using Tines and CloudTrail logs,,14,
+Respond to Google Drive public exposure alerts in Reco and secure files,", , , ",46,
+GitLab handover with response teams via a Slackbot,", ",42,
+Retrieve alerts from Google Security Command Center,,19,
+Unsubscribe users from an email distribution list,,17,Aaron Sandow
+Sync Tines records to Google Sheets,,27,Conor Dunne
+Manage browser extension requests with Secure Annex,,7,John Tuckner at Secure Annex
+Validate GitHub webhook deliveries,,5,
+Retrieve logs from the Wazuh Indexer,", ",8,Conor Dunne
+Ingest Tines audit logs into Grafana Loki,", ",8,Aron Day
+Block a hash in SentinelOne,,3,Michael Tolan
+Leverage AWS Bedrock for investigation help in Tines cases,,15,Adam Maksimuk at Navan
+Analyze Tines action failure notifications with AI,,6,Tyler Talaga at MyFitnessPal
+Search NetBox for device info using Slack,", ",26,Michael Tolan
+Isolate machines based on malicious Cybereason Malops and track in JIRA,", , ",21,
+Disable Google Accounts based on SpyCloud breaches,", , ",19,SpyCloud
+Capture Tines events in Supabase,,17,Conor Dunne
+Create issues in Jira from alerts in Cybersixgill and notify with Slack and email,", , ",4,
+Search for and remediate inactive AWS accounts from JupiterOne,", , , ",14,
+Lock a portion of a story for updates,,7,Conor Dunne
+Notify Slack channel of recently added tracks in Spotify playlists,", ",15,Michael Tolan
+Enrich IPs recorded in Airtable,", , ",14,Michael Tolan
+Authenticate page submissions with multifactor authentication,,23,Conor Dunne
+Monitor and backup Fleet policies in GitHub,", , ",27,Conor Dunne
+Redirect requests based on browser platform,,6,
+Stay on top of daily wellness attributes,,53,
+Record Tines Stories in Airtable,,10,
+Run a SQL Query in Dremio,,7,
+Find & remediate public AWS S3 buckets with Veza and add evidence to Drata controls,", , , ",20,
+Monitor user activity in Google Drive,", ",18,Christopher Toole at OVO Group
+Create and sync issues in Jira from data in Google Sheets,", ",18,Michael Tolan
+Manage Asana tasks and users with Tines Pages,,37,John Peter Vasanth
+Track vulnerabilities identified in CrowdStrike Spotlight with Tines cases,,52,Sam Olson at Omada Technologies
+Scan a file on Any.run,,20,
+Backup Tines Stories to Azure Blob Storage,", ",25,Michael Tolan
+Send Slack notifications when AWS budgets are exceeded and take action,", ",10,Michael Tolan
+Create and manage an email through Tines Pages,,53,
+Manage an email subscription list in Tines,,11,
+Log Axonius users without an Okta connection with BMC Remedy,", , ",5,
+Backup Power BI reports to GitHub,", ",24,Michael Tolan
+Using Slack with DomainTools' Iris Investigate API,", ",16,
+Retrieve & enrich Okta alerts from Logz.io,", , ",27,
+Initiate MISP investigation from a Tines case,,20,Conor Dunne
+Crowdstrike Firewall Domain Blocking,,10,Euan Dunsmore at OVO Group
+Use ChatGPT for triaging with internal playbooks,", ",32,Matt Houston
+Create an AI generated morning incident report,,22,Dermot Bruce-Agbeko
+Manage your fantasy football team with Slack,,61,
+Deploy Canarytoken using CrowdStrike RTR,", , ",7,Tyron Kemp at Thinkst Canary
+Suspend User in Atlassian,,8,Matt Svensson at GetRealLabs
+Reset Azure Entra ID passwords seen in SpyCloud breachces,", ",14,SpyCloud
+Assign New Okta Administrator Role to Okta from BambooHR through Opal,", , , ",16,
+"Sysdig Cloud Detection, Document with Jira, and Respond with Tines",", , , , , ",40,Manuel Boira at Sysdig
+Integrate Anomali Threat Intelligence with Sublime Security's email detection signatures,", ",39,Dan Le
+Retrieve CrowdStrike alerts and send to Falcon LogScale (Humio),,8,
+Update Linux system packages using Ansible Tower,", ",16,Conor Dunne
+Upload and execute a script on an Elastic Fleet endpoint,,15,Conor Dunne
+Perform free text Censys searches via a Slack channel,", ",11,Conor Dunne
+Receive alerts from Anecdotes.ai and create a ticket,", ",11,
+Get service status updates and post to X,,5,Michael Tolan
+Add screensaver lock evidence to Drata,,9,
+Send alerts when GitLab projects change to public visibility,", ",17,
+Track ID.me responses with Google Sheets,", ",3,
+Monitor the health of a Hashicorp Vault cluster,", ",13,Nate Adams at Sophos
+Add IdP MFA evidence to Drata,,7,
+Send data to Devo SIEM,,2,
+Standardize and enrich EDR alerts across platforms,", , , ",26,Shaun Finn
+Distributed Alerting Slackbot with 2FA,", , ",99,Jamison Bigham
+Fill out weekly recaps with Tines Pages and Slack,", ",30,Conor Dunne
+Convert a Tines case to a Microsoft Word document with TurboDocX,", ",13,Aaron Sandow
+Alert when Netskope SSPM Posture Score breaches threshold,,4,Netskope
+Display Disney World Wait Times,,5,Aron Day
+Create and modify EC2 Security Groups,,7,Michael Tolan
+Manage supply chain ransomware incidents using Ransomware.live,,6,Sif Baksh
+Manage Aikido vulnerabilities with Tines cases and records,,38,Troy Wegner
+Notify and assign training based on Harmonic Security alerts,", , , , ",17,Harmonic Security
+Scan a domain with CriminalIP,,16,Michael Tolan
+Analyze a domain with APIVoid,,23,Michael Tolan
+Close Tines Cases if JupiterOne vulnerabilities are resolved,", ",14,
+Scan suspicious links in emails with Webhood,,10,Markus Lehtonen at Webhood
+Monitor Intercom for sensitive content with Nightfall and record in Tines,", , ",7,Conor Dunne
+Monitor for domains that match a query in DomainTools Iris Investigate and notify Slack,", ",7,Nghia N at DomainTools
+Search for docs in Coda using Slack,", ",9,Conor Dunne
+Send Slack notifications for Kubernetes pod status changes,", ",13,Conor Dunne
+Create campaigns on new delivr.to payloads and report results,,20,
+Randomize elements of a list to choose a new order,,4,
+Search for & remediate public AWS S3 buckets with Veza,", , ",13,
+Search for vulnerable or malicious dependencies across services,", , , , , ",113,Emily Nguyen
+Update Google Sheets With Snowflake Data,", ",5,Colm O'Grada
+Search free Cobalt Strike IoC feeds for a value,,10,Sif Baksh
+Tines web crawler,,17,Conor Dunne
+Manage Entro exposure notifications via Slack and Jira,", ",13,Yehonatan Tsirolnik at Entro
+Track critical alerts for exposed AWS Keys,,27,Jaroslaw Wojciechowski at Roche
+Manage user accounts in CrowdStrike,,18,John Peter Vasanth
+Get reservation information and statistics for a local gym,", , ",13,Marti B
+Create a task in Linear,,5,Michael Tolan
+Create custom connectors for Opal using Tines,,43,
+Search Google Vault for user activity,,18,Matt Houston
+Shuffle and deal cards from Tines resources,,28,
+Track Opal access requests and create cases in Tines,,34,Conor Dunne
+Transfer Kubernetes manifest ownership via Slack,", ",22,Conor Dunne
+Sync Okta groups with Fleet labels,", ",15,Dave Herder at Fleet
+Review tasks in ConductorOne for inactive approvers and alert in Microsoft Teams,", ",10,Michael Tolan
+Streamline AWS Elastic Container Registry vulnerability monitoring with Tines Cases,,8,
+Synchronize Google Group email list with an AirTable database,", ",8,Conor Dunne
+"Receive, distribute, and report delivr.to payload notifications",,20,
+Generate GNQL queries from plain text using GreyNoise Labs,,12,Tines and Conor Dunne
+Register for live classes in Docebo,,14,
+Compare prompts across LLMs in Openrouter using Tines Pages,,16,Michael Tolan
+"Rock, Paper, Scissors via Slack",,19,Daniel Diez at Auctane
+Crowdstrike weekly host audit,,13,Tom Power at University of British Columbia
+Send a customised daily briefing in Slack,", ",26,Michael Tolan
+Email template personalization using Microsoft Outlook,,8,Aeon Psych
+Investigate security alerts in Workbench from Slack links,", , ",3,Michael Tolan
+Create a Panic Button for users,", ",8,Francesco Pergola
+Update entry in a list in Sublime Security,,6,Michael Tolan
+Authenticate a user using Duo,,7,
+Get list information in Sublime Security,,6,Michael Tolan
+Coach users to use AI safely with Harmonic Security and Teams,", ",8,
+Coach users to use AI safely with Harmonic Security and Slack,", ",9,
+Search alphaMountain for URL threat intelligence via Slack,", ",11,Michael Tolan
+Record IoCs in Google FireBase,", ",13,Conor Dunne
+Verify user identities using Nametag and Tines pages,,9,Andy Caird at Nametag
+Query Falcon Logscale from Slack,", ",12,Michael Tolan
+Manage alerts from Vorlon with Tines cases and records,", ",38,Anil at Vorlon
+Receive malware events from Azure Event Grid and remove files from Azure Blob Storage,", ",12,Michael Tolan
+Query a database collection in Azure Cosmos and download the results,,20,Michael Tolan
+Update employee probation status with HiBob & Slack,", ",11,
+Review tasks in ConductorOne for inactive approvers and alert in Slack,", ",9,Michael Tolan
+Monitor TLS certificates for a domain with SSLMate,", ",25,Conor Dunne
+Isolate and take a snapshot of an instance in Google Cloud,,26,Conor Dunne
+View and manage AirTable webhooks using Tines pages,,22,Conor Dunne
+Sync Intercom conversations with Tines cases,", ",26,
+Create posts in Workplace from Meta,", , ",3,Michael Tolan
+Offboarding users to OctoPerf via Pages and Jira,", ",27,
+Validate a one-time Yubikey password,,19,Nate Adams at Sophos
+Verify signed authentication data for DomainTools,,14,
+Handle Kolide exemption requests via Slack,", ",22,Scott Bean
+Send assets to Asset Register in Jira Service Management,,47,Sid Pillarisetty at Personio
+Generate a poem from an image,,5,Gabe Schuyler
+Manage a Hetzner Minecraft Server via Discord,,35,Yannick Gloster
+Ingest Tines audit logs into Snowflake,", ",13,Michael Tolan
+Monitor RSS feed for keywords and send to Slack,", ",13,Nick Page
+Harmonic Hotdog Slackbot,,26,Ed Merrett at Harmonic Security
+Remove multiple or single keys from an object,,2,Horia Todoran
+Sync Google spreadsheet to records,,23,Conor Dunne
+Parse URL From Email and Send To Notion,,4,Colm O'Grada
+Handle a MoveWorks Proxy via Tines,,29,Kyle Beckwith at Reddit
+Delete Buildkite job logs,", , ",19,Christopher Cutajar at Elastic
+Battleworld Slack app game,,30,Peter Ortiz
+Bootcamp - Pages and Applications (Holiday Edition),,8,
+Manage Microsoft Teams chat membership,", ",18,Nathan Collings at Holland & Barrett
+Create an API to query Tines template vendors and actions,,8,John Tuckner
+Analyze Tines action failures with AI and get remediation advice,,16,Michael Tolan
+Grammar fixer with Tines pages,,8,Mikie Lennon
+LLM-Powered Fantasy Manager,,54,Tyler Talaga at MyFitnessPal
+Create JIRA tickets for Nudge Security SaaS posture findings,,7,Jaime Blasco at Nudge Security
+Triage Code42 alerts via Slack,", ",24,
+Create or update a custom Real Time Response script in CrowdStrike,,8,
+Get teams in Linear,,9,Michael Tolan
+Get compliance status for a user in Drata,,3,
+Query Fleet for software on hosts,,5,
+Search for processes on a host using Fleet scripts,", ",27,Conor Dunne
+Receive virtual machine deployment events from Azure Event Grid and alert in Slack and Jira,", , , ",10,Michael Tolan
+Send Google Workspace security logs to LogScale,", ",6,
+Register and run container tasks in AWS ECS,,12,
+Add IOCs from Pulsedive threats to Azure Cosmos DB,", ",5,
+Monitor when a tagged domain becomes active in DomainTools Iris Investigate and notify via Slack,", ",8,Nghia N at DomainTools
+Grant temporary programmatic AWS access with Tines pages,,26,Michael Tolan
+Track Intercom conversations in Quickbase,", ",7,
+Enable secret scanning and push protection on newly public GitHub repositories,", ",4,Christopher Cutajar at Elastic
+Raise incidents in Atlassian Statuspage,", ",16,
+Get Cyberark Safes and Members,,12,Nick Page
+Create and sync Google Calendar events from Notion,", ",23,Yanni Hajioannou
+Investigate and remediate multiple denied MFA push requests in Okta,", , , , ",31,Claudia Kinsella
+Create a Netsuite sales order for a won Salesforce opportunity,", ",16,Peter Coleman
+Sync Github file with a Tines Resource,", ",13,Nick Page
+Host your Teams contact details using Records and Pages,,11,Sif Baksh
+Compare and optimize AI Prompts in Tines,,10,Michael Tolan
+Cisco Secure Endpoint weekly audit,,14,Tom Power at University of British Columbia
+Search artists in the Art Institute of Chicago,,33,Matthew Wong
+Onboard GitHub projects to SonarCloud and Airtable,", , ",36,Tyler Talaga
+UAT Plan Generator,,3,Shub
+Game: Heroes and Villians Top Trumps game,,46,Nathan Collings at Holland & Barrett
+Badge Management,,9,Yanni Hajioannou
+Submit approved SaaS apps from Nudge Security to Security Scorecard,,3,Jaime Blasco at Nudge Security
+Query Spectra Intelligence for existing classification of inputted Hash,,9,
+Query Spectra Intelligence for URL reputation,,16,
+Update user in Tines,,6,Michael Tolan
+Monitor employees using Code42,,8,
+"Enrich CVE information using Microsoft, Recorded Future, CIRCL and GreyNoise",", , ",6,Michael Tolan
+Sync IriusRisk projects with GitHub Terraform repositories,", , ",21,Conor Dunne
+Search for AppStore apps with no approvers in Lumos and alert in Microsoft Teams,", ",6,Michael Tolan

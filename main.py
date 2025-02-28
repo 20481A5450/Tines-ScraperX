@@ -1,59 +1,165 @@
+import csv
+import os
+import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Setup Chrome options
 chrome_options = Options()
+# chrome_options.add_argument("--start-maximized")  # Open browser in maximized mode
 
 # Initialize WebDriver
 driver = webdriver.Chrome(options=chrome_options)
+wait = WebDriverWait(driver, 15)
 
-def main():
-    BASE_URL = "https://www.tines.com/library/tools/"
-    driver.get(BASE_URL)
-    
+TOOLS_URL = "https://www.tines.com/library/tools"
+STORIES_URL = "https://www.tines.com/library?view=all"
+DATA_DIR = "data"
+
+# Ensure the data directory exists
+os.makedirs(DATA_DIR, exist_ok=True)
+
+
+def fetch_tools():
+    """Scrapes tool names and the number of stories for each tool, saves them to tools_data.csv"""
+    driver.get(TOOLS_URL)
+    time.sleep(3)  # Allow elements to load
+
     try:
-        # Wait for the table body to be visible
-        wait = WebDriverWait(driver, 15)
-        tbody = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="gatsby-focus-wrapper"]/div/div[1]/div/div/div[2]/div/div[2]/div/div[1]/table/tbody')))
-
-        # Click the pagination dropdown
-        pagination_dropdown = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="pagination-per-page"]/option[5]')))
+        # Click "Show All" in pagination
+        pagination_dropdown = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="pagination-per-page"]/option[last()]')))
         pagination_dropdown.click()
+        time.sleep(3)  # Wait for page refresh
 
-        # Wait for the new table data to load
-        wait.until(EC.staleness_of(tbody))  # Ensures the old tbody is stale
-        tbody = wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="gatsby-focus-wrapper"]/div/div[1]/div/div/div[2]/div/div[2]/div/div[1]/table/tbody')))
+        # Locate tools table
+        tools_table = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "table tbody")))
+        rows = tools_table.find_elements(By.CSS_SELECTOR, "tr")
 
-        # Extract data
         tools_data = []
-        rows = tbody.find_elements(By.CSS_SELECTOR, 'tr')
         for row in rows:
-            tool_name = row.find_element(By.CSS_SELECTOR, 'th a').text
-            num_stories = row.find_element(By.CSS_SELECTOR, 'td:nth-child(3)').text
-            tools_data.append([tool_name, num_stories])
-        # print(tools_data,end='\n')
+            try:
+                tool_name = row.find_element(By.CSS_SELECTOR, "th a").text.strip()
+                num_stories = row.find_element(By.CSS_SELECTOR, "td:nth-child(3)").text.strip()
+                tools_data.append([tool_name, num_stories])
+            except Exception:
+                continue  # Skip row if any error occurs
 
-        # Write data to a CSV file
-        with open('data/tools_data.csv', 'w') as f:
-            f.write('Tool Name,Number of Stories\n')
-            for tool in tools_data:
-                f.write(f'{tool[0]},{tool[1]}\n')
-                driver.newtool[0]
+        # Save to CSV
+        with open(f"{DATA_DIR}/tools_data.csv", "w", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            writer.writerow(["Tool Name", "Number of Stories"])
+            writer.writerows(tools_data)
 
-        print("Data saved to tools_data.csv")
-
-
-
+        print("✅ Tools data saved to tools_data.csv")
 
     except Exception as e:
-        print("Error:", e)
+        print(f"❌ Error in fetch_tools(): {e}")
 
-    finally:
-        driver.quit()
+
+# def fetch_tool_stories():
+#     """Fetches stories from each tool's page and saves them to stories_data.csv"""
+#     input_file = f"{DATA_DIR}/tools_data.csv"
+#     output_file = f"{DATA_DIR}/stories_data.csv"
+
+#     if not os.path.exists(input_file):
+#         print("⚠️ tools_data.csv not found. Run fetch_tools() first.")
+#         return
+
+#     # Read tool names
+#     with open(input_file, "r", encoding="utf-8") as f:
+#         reader = csv.reader(f)
+#         next(reader)  # Skip header
+#         tools = [row[0] for row in reader]  # Extract only tool names
+
+#     with open(output_file, "w", newline="", encoding="utf-8") as f:
+#         writer = csv.writer(f)
+#         writer.writerow(["Tool Name", "Story", "Works with", "No. of Actions", "Author"])  # CSV Header
+
+#         for tool_name in tools:
+#             tool_url = f"{TOOLS_URL}/{tool_name.lower().replace(' ', '-')}"
+#             driver.get(tool_url)
+#             time.sleep(3)  # Allow time to load
+
+#             try:
+#                 # Click "Show All" in pagination
+#                 pagination_dropdown = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="pagination-per-page"]/option[last()]')))
+#                 pagination_dropdown.click()
+#                 time.sleep(3)  # Wait for reload
+
+#                 # Locate stories table
+#                 stories_table = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "table tbody")))
+#                 rows = stories_table.find_elements(By.CSS_SELECTOR, "tr")
+
+#                 for row in rows:
+#                     try:
+#                         story_name = row.find_element(By.CSS_SELECTOR, "th a").text.strip()
+#                         works_with = row.find_element(By.CSS_SELECTOR, "td:nth-child(2)").text.strip()
+#                         num_actions = row.find_element(By.CSS_SELECTOR, "td:nth-child(4)").text.strip()
+#                         author = row.find_element(By.CSS_SELECTOR, "td:nth-child(5)").text.strip()
+
+#                         writer.writerow([tool_name, story_name, works_with, num_actions, author])
+
+#                     except Exception:
+#                         continue  # Skip row if error occurs
+
+#             except Exception as e:
+#                 print(f"⚠️ Error extracting stories for {tool_name}: {e}")
+
+#     print("✅ Stories data saved to stories_data.csv")
+
+
+def fetch_all_stories():
+    """Scrapes all stories from the main library page and saves them to all_stories.csv"""
+    driver.get(STORIES_URL)
+    time.sleep(3)
+
+    output_file = f"{DATA_DIR}/all_stories.csv"
+
+    try:
+        # Click "Show All" in pagination
+        pagination_dropdown = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="pagination-per-page"]/option[last()]')))
+        pagination_dropdown.click()
+        time.sleep(3)  # Wait for reload
+
+        # Locate stories table
+        stories_table = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "table tbody")))
+        rows = stories_table.find_elements(By.CSS_SELECTOR, "tr")
+
+        with open(output_file, "w") as f:
+            writer = csv.writer(f)
+            writer.writerow(["Story", "Works with", "No. of Actions", "Author"])
+
+            for row in rows:
+                try:
+                    story_name = row.find_element(By.CSS_SELECTOR, "table tbody tr th a").text.strip()
+                    
+                    tool_elements = row.find_elements(By.CSS_SELECTOR, "td:nth-of-type(2) a div div span")
+                    
+                    works_with = ", ".join([tool.text.strip() for tool in tool_elements])
+
+                    num_actions = row.find_element(By.CSS_SELECTOR, "td:nth-child(4)").text.strip()
+                    author = row.find_element(By.CSS_SELECTOR, "td:nth-child(5)").text.strip()
+                    print(story_name, works_with, num_actions, author, end="\n")
+                    writer.writerow([story_name, works_with, num_actions, author])
+
+                except Exception:
+                    continue  # Skip row if error occurs
+
+        print("✅ All stories data saved to all_stories.csv")
+
+    except Exception as e:
+        print(f"❌ Error in fetch_all_stories(): {e}")
+
+
+def main():
+    fetch_tools()         # Task 1: Scrape tools
+    # fetch_tool_stories()  # Task 2: Scrape stories under each tool
+    fetch_all_stories()   # Task 3: Scrape all stories from library page
+    driver.quit()
+
 
 if __name__ == '__main__':
     main()
