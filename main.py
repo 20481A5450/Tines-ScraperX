@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # Setup Chrome options
 chrome_options = Options()
-chrome_options.add_argument("--headless=new")  # If you don't want a chrome window to open, Use the new headless mode
+# chrome_options.add_argument("--headless=new")  # If you don't want a chrome window to open, Use the new headless mode
 # chrome_options.add_argument("--start-maximized")  # Open browser in maximized mode
 
 # Initialize WebDriver
@@ -44,16 +44,18 @@ def fetch_tools():
         for row in rows:
             try:
                 tool_name = row.find_element(By.CSS_SELECTOR, "th a").text.strip()
+                tool_link = row.find_element(By.CSS_SELECTOR, "th a").get_attribute("href").strip()
                 num_stories = row.find_element(By.CSS_SELECTOR, "td:nth-child(3)").text.strip()
                 
-                tools_data.append([tool_name, num_stories])
+                tools_data.append([tool_name, num_stories, tool_link])
+                print(tool_name, num_stories, tool_link, end="\n")
             except Exception:
                 continue  # Skip row if any error occurs
 
         # Save to CSV
         with open(f"{DATA_DIR}/tools_data.csv", "w", newline="", encoding="utf-8") as f:
             writer = csv.writer(f)
-            writer.writerow(["Tool Name", "Number of Stories"])
+            writer.writerow(["Tool Name", "Number of Stories", "Tool Link"])  # CSV Header
             writer.writerows(tools_data)
 
         print("Tools data saved to tools_data.csv")
@@ -76,52 +78,104 @@ def fetch_tool_stories():
         with open(input_file, "r", encoding="utf-8") as f:
             reader = csv.reader(f)
             next(reader)  # Skip header
-            tools = [row[0] for row in reader]  # Extract only tool names
+            tools = [(row[0], row[2]) for row in reader]  # Extract tool names and links
 
         with open(output_file, "w", newline="", encoding="utf-8") as f:
             writer = csv.writer(f)
             writer.writerow(["Tool Name", "Story", "Works with", "No. of Actions", "Author"])  # CSV Header
-            for tool_name in tools:
-                tool_url = f"{TOOLS_URL}/{tool_name.lower().replace(' ', '-')}"
+            for tool_name, tool_link in tools:
+                tool_url = tool_link
                 driver.get(tool_url)
+                print(tool_name)
+                print(tool_url)
                 time.sleep(3)  # Allow time to load
 
                 try:
-                    # Click "Show All" in pagination
-                    pagination_dropdown = wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="pagination-per-page"]/option[last()]')))
-                    pagination_dropdown.click()
-                    time.sleep(3)  # Wait for reload
+                    pagination_elements = driver.find_elements(By.XPATH, '//*[@id="pagination-per-page"]/option[last()]')
 
-                    # Locate stories table
-                    stories_table = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "table tbody")))
-                    rows = stories_table.find_elements(By.CSS_SELECTOR, "tr")
+                    if pagination_elements:  # If pagination exists
+                        pagination_dropdown = pagination_elements[0]
+                        pagination_dropdown.click()
+                        time.sleep(3)  # Wait for reload
+                        # Locate stories table
+                        stories_table = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "table tbody")))
+                        rows = stories_table.find_elements(By.CSS_SELECTOR, "tr")
 
-                    for row in rows:
-                        try:
-                            story_name = row.find_element(By.CSS_SELECTOR, "th a").text.strip()
-                            works_with = row.find_element(By.CSS_SELECTOR, "td:nth-child(2)").text.strip()
+                        for row in rows:
+                            # print(row.get_attribute("outerHTML"))
+                            try:
+                                story_name = row.find_element(By.CSS_SELECTOR, "th a").text.strip()
+                                parent = row.find_element(By.CSS_SELECTOR, "table tbody tr td a")
+                                # Find the correct 'td' that contains taaq09w
+                                parent_td = row.find_element(By.CLASS_NAME, "lnfq6m")
+
+                                # Extract all elements with class "taaq09w" inside the td
+                                div_elements = parent_td.find_elements(By.CLASS_NAME, "taaq09w")
+                                # print(div_elements)
+                                
+                                works_with = []
+                                
+                                # Iterate through all found div elements
+                                for div_element in div_elements:                        
+                                    # print("Element: ", div_element)
+                                    # Locate the <span> inside each div
+                                    span_element = div_element.find_element(By.TAG_NAME, "span")
+                                    # print("Div HTML:", div_element.get_attribute("outerHTML")) 
+                                    text = driver.execute_script("return arguments[0].textContent;", span_element)
+                                    # print("Extracted Text (JS):", text)                   
+                                    works_with.append(text)    
+                                    # Print extracted text
+                                    # print(f"Story: {story_name}, Extracted Text: {span_element.text}")
                             
-                            div_element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "taaq09w")))
+                                # Extract and print the text inside the <span>
+                                # print("Extracted Text:", span_element.text)
+                                num_actions = row.find_element(By.CSS_SELECTOR, "td:nth-child(4)").text.strip()
+                                
+                                # print(num_actions)
+                                author = row.find_element(By.CSS_SELECTOR, "td:nth-child(5)").text.strip()
+                                print(tool_name,story_name, works_with, num_actions, author, end="\n")
+                                writer.writerow([tool_name, story_name, works_with, num_actions, author])
 
-                            # Now find the <span> inside this div
-                            span_element = div_element.find_element(By.TAG_NAME, "span")
+                            except Exception:
+                                continue  # Skip row if error occurs
+                
+                    else:
+                        print(f"No pagination found for {tool_name}, proceeding without it.")
+                        stories_table = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "table tbody")))
+                        rows = stories_table.find_elements(By.CSS_SELECTOR, "tr")
 
-                            # Extract and print the text inside the <span>
-                            print("Extracted Text:", span_element.text)
-                            num_actions = row.find_element(By.CSS_SELECTOR, "td:nth-child(4)").text.strip()
-                            
-                            print(num_actions)
-                            author = row.find_element(By.CSS_SELECTOR, "td:nth-child(5)").text.strip()
+                        for row in rows:
+                            try:
+                                story_name = row.find_element(By.CSS_SELECTOR, "th a").text.strip()
+                                parent = row.find_element(By.CSS_SELECTOR, "table tbody tr td a")
+                                # Find the correct 'td' that contains taaq09w
+                                parent_td = row.find_element(By.CLASS_NAME, "lnfq6m")
 
-                            writer.writerow([tool_name, story_name, works_with, num_actions, author])
-
-                        except Exception:
-                            continue  # Skip row if error occurs
-
+                                # Extract all elements with class "taaq09w" inside the td
+                                div_elements = parent_td.find_elements(By.CLASS_NAME, "taaq09w")
+                                # print(div_elements)
+                                
+                                works_with = []
+                                
+                                # Iterate through all found div elements
+                                for div_element in div_elements:                        
+                                    # print("Element: ", div_element)
+                                    # Locate the <span> inside each div
+                                    span_element = div_element.find_element(By.TAG_NAME, "span")
+                                    # print("Div HTML:", div_element.get_attribute("outerHTML"))
+                                    text = driver.execute_script("return arguments[0].textContent;", span_element)
+                                    # print("Extracted Text (JS):", text)
+                                    works_with.append(text)
+                                    # Print extracted text
+                                    # print(f"Story: {story_name}, Extracted Text: {span_element.text}")
+                                num_actions = row.find_element(By.CSS_SELECTOR, "td:nth-child(4)").text.strip()
+                                author = row.find_element(By.CSS_SELECTOR, "td:nth-child(5)").text.strip()
+                                print(tool_name,story_name, works_with, num_actions, author, end="\n")
+                                writer.writerow([tool_name, story_name, works_with, num_actions, author])
+                            except Exception:
+                                continue
                 except Exception as e:
                     print(f"Error extracting stories for {tool_name}: {e}")
-                break
-
         print("Stories data saved to stories_data.csv")
     except Exception as e:
         print(f"Error in fetch_tool_stories(): {e}")
@@ -188,13 +242,11 @@ def fetch_all_stories():
     except Exception as e:
         print(f"Error in fetch_all_stories(): {e}")
 
-
 def main():
-    # fetch_tools()         # Task 1: Scrape tools and their number of stories
+    fetch_tools()         # Task 1: Scrape tools and their number of stories
     fetch_tool_stories()  # Task 2: Scrape stories under each tool
     # fetch_all_stories()   # Task 3: Scrape all stories from library page
     driver.quit()
-
 
 if __name__ == '__main__':
     main()

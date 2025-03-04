@@ -1,226 +1,226 @@
-Tool Name,Number of Stories
-Slack,234
-Jira Software,150
-AWS,91
-Tines,73
-Google,71
-CrowdStrike,64
-Okta,51
-Microsoft,48
-VirusTotal,43
-Microsoft Azure,36
-GitHub,34
-Elastic,32
-Drata,26
-Microsoft Teams,21
-URLScan.io,21
-GreyNoise,20
-OpenAI,20
-Recorded Future,16
-Sublime Security,16
-ServiceNow,15
-BambooHR,14
-Splunk,14
-AbuseIPDB,12
-Google Sheets,12
-Notion,12
-PagerDuty,12
-Wiz,12
-DomainTools,10
-Zendesk,10
-Airtable,9
-Fleet,9
-Microsoft OneDrive,9
-SentinelOne,9
-SpyCloud,9
-Tenable Vulnerability Management,9
-Code42,8
-JupiterOne,8
-Axonius,7
-Duo Security,7
-GitLab,7
-Pulsedive,7
-EmailRep,6
-Microsoft Defender,6
-OpsGenie,6
-Qualys,6
-Shodan,6
-Zscaler,6
-Anomali ThreatStream,5
-Ansible,5
-Cisco,5
-Criminal IP,5
-Google Drive,5
-HashiCorp,5
-Jamf,5
-Knowbe4,5
-LimaCharlie,5
-MISP,5
-Orca Security,5
-Salesforce,5
-Snyk,5
-Sysdig,5
-TheHive Project,5
-APIVoid,4
-Censys,4
-Google Calendar,4
-HashiCorp Terraform,4
-Intercom,4
-Kubernetes,4
-Lacework,4
-Material Security,4
-MITRE,4
-Netskope,4
-Panther,4
-Snowflake,4
-Spotify,4
-Sumo Logic,4
-Thinkst Canary,4
-Any.Run,3
-Apex Central,3
-Confluence,3
-Cribl,3
-Cybersixgill,3
-DataDog,3
-Devo,3
-Discord,3
-Google Cloud Storage,3
-Harmonic Security,3
-Hunters SOC Platform,3
-Kandji,3
-Linear,3
-LogScale,3
-NextDNS,3
-OctoPerf,3
-Opal,3
-QuickChart,3
-runZero,3
-Twilio,3
-VulnCheck,3
-X,3
-Zoom,3
-Abuse.ch,2
-Amazon GuardDuty,2
-Analyst1,2
-Anecdotes.ai,2
-Browserless,2
-ConductorOne,2
-CyberArk,2
-Cybereason,2
-Cyera,2
-DelivrTo,2
-Gmail,2
-Have I Been Pwned,2
-HiBob,2
-Hybrid Analysis,2
-ID.me,2
-Intezer Analyze,2
-IOC Parser,2
-IPQualityScore,2
-Jumpcloud,2
-Logz.io,2
-Lumos,2
-Malware Traffic Analysis,2
-Meta,2
-Mimecast,2
-OCRSpace,2
-Palo Alto Networks,2
-PassiveTotal,2
-Phish Report,2
-Power BI,2
-Proofpoint,2
-Reco,2
-Reversing Labs,2
-Security Scorecard,2
-SonarCloud,2
-Tailscale,2
-Traceable.ai,2
-Veza,2
-1Password,1
-AdGuard,1
-Aikido,1
-Akamai,1
-AlienVault OTX,1
-alphaMountain,1
-Aqua Security,1
-Argo Workflows,1
-Armis,1
-Artifactory,1
-Automox,1
-BMC Helix IT Service Management,1
-Bolster AI,1
-Bowtie,1
-BuildKite,1
-CheckPhish.ai,1
-Claroty xDome,1
-Cloudflare,1
-Coda,1
-Cylance,1
-Docebo,1
-DocSpring,1
-DocuSign,1
-Dremio,1
-Endace,1
-Entro,1
-ExtensionTotal,1
-Extrahop,1
-Facebook Messenger,1
-FireBase,1
-Grafana,1
-Grip Security,1
-HCL AppScan,1
-Hunter.io,1
-Infoblox,1
-Invary,1
-IRIS,1
-IriusRisk,1
-Island,1
-Jira Service Management,1
-Kolide,1
-Lansweeper,1
-LinkedIn,1
-Malwarebytes,1
-Manage Engine,1
-Mattermost,1
-MetaDefender,1
-MongoDB Atlas,1
-NetBox,1
-Netsuite,1
-New Relic,1
-Nightfall AI,1
-NPM,1
-NVIDIA,1
-OneLogin,1
-Opencage,1
-OpenCTI,1
-Openrouter,1
-PDFCo,1
-Pushover,1
-Quickbase,1
-Rapid7,1
-Semgrep,1
-SerpApi,1
-Shortcut,1
-Silent Push,1
-Smartsheet,1
-Sonatype,1
-Sophos,1
-Spur,1
-SSLMate,1
-Stability AI,1
-Stairwell,1
-Statuspage,1
-Supabase,1
-Tanium,1
-Telegram,1
-TurboDocx,1
-Velociraptor,1
-VeSync,1
-VMRay,1
-Vorlon,1
-Wazuh,1
-Webex,1
-Webhood,1
-Workday,1
-Workplace,1
-Yubico,1
+Tool Name,Number of Stories,Tool Link
+Slack,234,https://www.tines.com/library/tools/slack/
+Jira Software,150,https://www.tines.com/library/tools/jira/
+AWS,91,https://www.tines.com/library/tools/aws/
+Tines,73,https://www.tines.com/library/tools/tines/
+Google,71,https://www.tines.com/library/tools/google/
+CrowdStrike,64,https://www.tines.com/library/tools/crowdstrike/
+Okta,51,https://www.tines.com/library/tools/okta/
+Microsoft,48,https://www.tines.com/library/tools/microsoft/
+VirusTotal,43,https://www.tines.com/library/tools/virustotal/
+Microsoft Azure,36,https://www.tines.com/library/tools/microsoft-azure/
+GitHub,34,https://www.tines.com/library/tools/github/
+Elastic,32,https://www.tines.com/library/tools/elastic/
+Drata,26,https://www.tines.com/library/tools/drata/
+Microsoft Teams,21,https://www.tines.com/library/tools/microsoft-teams/
+URLScan.io,21,https://www.tines.com/library/tools/urlscan/
+GreyNoise,20,https://www.tines.com/library/tools/greynoise/
+OpenAI,20,https://www.tines.com/library/tools/openai/
+Recorded Future,16,https://www.tines.com/library/tools/recorded-future/
+Sublime Security,16,https://www.tines.com/library/tools/sublime-security/
+ServiceNow,15,https://www.tines.com/library/tools/servicenow/
+BambooHR,14,https://www.tines.com/library/tools/bamboohr/
+Splunk,14,https://www.tines.com/library/tools/splunk/
+AbuseIPDB,12,https://www.tines.com/library/tools/abuseipdb/
+Google Sheets,12,https://www.tines.com/library/tools/google-sheets/
+Notion,12,https://www.tines.com/library/tools/notion/
+PagerDuty,12,https://www.tines.com/library/tools/pagerduty/
+Wiz,12,https://www.tines.com/library/tools/wiz/
+DomainTools,10,https://www.tines.com/library/tools/domaintools/
+Zendesk,10,https://www.tines.com/library/tools/zendesk/
+Airtable,9,https://www.tines.com/library/tools/airtable/
+Fleet,9,https://www.tines.com/library/tools/fleet/
+Microsoft OneDrive,9,https://www.tines.com/library/tools/microsoft-onedrive/
+SentinelOne,9,https://www.tines.com/library/tools/sentinelone/
+SpyCloud,9,https://www.tines.com/library/tools/spycloud/
+Tenable Vulnerability Management,9,https://www.tines.com/library/tools/tenable/
+Code42,8,https://www.tines.com/library/tools/code42/
+JupiterOne,8,https://www.tines.com/library/tools/jupiterone/
+Axonius,7,https://www.tines.com/library/tools/axonius/
+Duo Security,7,https://www.tines.com/library/tools/duo/
+GitLab,7,https://www.tines.com/library/tools/gitlab/
+Pulsedive,7,https://www.tines.com/library/tools/pulsedive/
+EmailRep,6,https://www.tines.com/library/tools/emailrep/
+Microsoft Defender,6,https://www.tines.com/library/tools/microsoft-defender/
+OpsGenie,6,https://www.tines.com/library/tools/opsgenie/
+Qualys,6,https://www.tines.com/library/tools/qualys/
+Shodan,6,https://www.tines.com/library/tools/shodan/
+Zscaler,6,https://www.tines.com/library/tools/zscaler/
+Anomali ThreatStream,5,https://www.tines.com/library/tools/anomali/
+Ansible,5,https://www.tines.com/library/tools/ansible/
+Cisco,5,https://www.tines.com/library/tools/cisco/
+Criminal IP,5,https://www.tines.com/library/tools/criminal-ip/
+Google Drive,5,https://www.tines.com/library/tools/google-drive/
+HashiCorp,5,https://www.tines.com/library/tools/hashicorp/
+Jamf,5,https://www.tines.com/library/tools/jamf/
+Knowbe4,5,https://www.tines.com/library/tools/knowbe4/
+LimaCharlie,5,https://www.tines.com/library/tools/limacharlie/
+MISP,5,https://www.tines.com/library/tools/misp/
+Orca Security,5,https://www.tines.com/library/tools/orca/
+Salesforce,5,https://www.tines.com/library/tools/salesforce/
+Snyk,5,https://www.tines.com/library/tools/snyk/
+Sysdig,5,https://www.tines.com/library/tools/sysdig/
+TheHive Project,5,https://www.tines.com/library/tools/thehive/
+APIVoid,4,https://www.tines.com/library/tools/apivoid/
+Censys,4,https://www.tines.com/library/tools/censys/
+Google Calendar,4,https://www.tines.com/library/tools/google-calendar/
+HashiCorp Terraform,4,https://www.tines.com/library/tools/terraform/
+Intercom,4,https://www.tines.com/library/tools/intercom/
+Kubernetes,4,https://www.tines.com/library/tools/kubernetes/
+Lacework,4,https://www.tines.com/library/tools/lacework/
+Material Security,4,https://www.tines.com/library/tools/material-security/
+MITRE,4,https://www.tines.com/library/tools/mitre/
+Netskope,4,https://www.tines.com/library/tools/netskope/
+Panther,4,https://www.tines.com/library/tools/panther/
+Snowflake,4,https://www.tines.com/library/tools/snowflake/
+Spotify,4,https://www.tines.com/library/tools/spotify/
+Sumo Logic,4,https://www.tines.com/library/tools/sumo-logic/
+Thinkst Canary,4,https://www.tines.com/library/tools/thinkst-canary/
+Any.Run,3,https://www.tines.com/library/tools/any-run/
+Apex Central,3,https://www.tines.com/library/tools/trendmicro/
+Confluence,3,https://www.tines.com/library/tools/confluence/
+Cribl,3,https://www.tines.com/library/tools/cribl/
+Cybersixgill,3,https://www.tines.com/library/tools/cybersixgill/
+DataDog,3,https://www.tines.com/library/tools/datadog/
+Devo,3,https://www.tines.com/library/tools/devo/
+Discord,3,https://www.tines.com/library/tools/discord/
+Google Cloud Storage,3,https://www.tines.com/library/tools/google-cloud-storage/
+Harmonic Security,3,https://www.tines.com/library/tools/harmonic-security/
+Hunters SOC Platform,3,https://www.tines.com/library/tools/hunters/
+Kandji,3,https://www.tines.com/library/tools/kandji/
+Linear,3,https://www.tines.com/library/tools/linear/
+LogScale,3,https://www.tines.com/library/tools/logscale/
+NextDNS,3,https://www.tines.com/library/tools/nextdns/
+OctoPerf,3,https://www.tines.com/library/tools/octoperf/
+Opal,3,https://www.tines.com/library/tools/opal/
+QuickChart,3,https://www.tines.com/library/tools/quickchart/
+runZero,3,https://www.tines.com/library/tools/runzero/
+Twilio,3,https://www.tines.com/library/tools/twilio/
+VulnCheck,3,https://www.tines.com/library/tools/vulncheck/
+X,3,https://www.tines.com/library/tools/x/
+Zoom,3,https://www.tines.com/library/tools/zoom/
+Abuse.ch,2,https://www.tines.com/library/tools/abuse-ch/
+Amazon GuardDuty,2,https://www.tines.com/library/tools/guardduty/
+Analyst1,2,https://www.tines.com/library/tools/analyst1/
+Anecdotes.ai,2,https://www.tines.com/library/tools/anecdotes/
+Browserless,2,https://www.tines.com/library/tools/browserless/
+ConductorOne,2,https://www.tines.com/library/tools/conductorone/
+CyberArk,2,https://www.tines.com/library/tools/cyberark/
+Cybereason,2,https://www.tines.com/library/tools/cybereason/
+Cyera,2,https://www.tines.com/library/tools/cyera/
+DelivrTo,2,https://www.tines.com/library/tools/delivrto/
+Gmail,2,https://www.tines.com/library/tools/gmail/
+Have I Been Pwned,2,https://www.tines.com/library/tools/have-i-been-pwned/
+HiBob,2,https://www.tines.com/library/tools/hibob/
+Hybrid Analysis,2,https://www.tines.com/library/tools/hybrid-analysis/
+ID.me,2,https://www.tines.com/library/tools/id-me/
+Intezer Analyze,2,https://www.tines.com/library/tools/intezer/
+IOC Parser,2,https://www.tines.com/library/tools/iocparser/
+IPQualityScore,2,https://www.tines.com/library/tools/ipqualityscore/
+Jumpcloud,2,https://www.tines.com/library/tools/jumpcloud/
+Logz.io,2,https://www.tines.com/library/tools/logz/
+Lumos,2,https://www.tines.com/library/tools/lumos/
+Malware Traffic Analysis,2,https://www.tines.com/library/tools/malware-traffic-analysis/
+Meta,2,https://www.tines.com/library/tools/meta/
+Mimecast,2,https://www.tines.com/library/tools/mimecast/
+OCRSpace,2,https://www.tines.com/library/tools/ocrspace/
+Palo Alto Networks,2,https://www.tines.com/library/tools/palo-alto-networks/
+PassiveTotal,2,https://www.tines.com/library/tools/riskiq/
+Phish Report,2,https://www.tines.com/library/tools/phish-report/
+Power BI,2,https://www.tines.com/library/tools/power-bi/
+Proofpoint,2,https://www.tines.com/library/tools/proofpoint/
+Reco,2,https://www.tines.com/library/tools/reco/
+Reversing Labs,2,https://www.tines.com/library/tools/reversing-labs/
+Security Scorecard,2,https://www.tines.com/library/tools/security-scorecard/
+SonarCloud,2,https://www.tines.com/library/tools/sonarcloud/
+Tailscale,2,https://www.tines.com/library/tools/tailscale/
+Traceable.ai,2,https://www.tines.com/library/tools/traceable/
+Veza,2,https://www.tines.com/library/tools/veza/
+1Password,1,https://www.tines.com/library/tools/1password/
+AdGuard,1,https://www.tines.com/library/tools/adguard/
+Aikido,1,https://www.tines.com/library/tools/aikido/
+Akamai,1,https://www.tines.com/library/tools/akamai/
+AlienVault OTX,1,https://www.tines.com/library/tools/alienvault/
+alphaMountain,1,https://www.tines.com/library/tools/alphamountain/
+Aqua Security,1,https://www.tines.com/library/tools/aqua-security/
+Argo Workflows,1,https://www.tines.com/library/tools/argo-workflows/
+Armis,1,https://www.tines.com/library/tools/armis/
+Artifactory,1,https://www.tines.com/library/tools/artifactory/
+Automox,1,https://www.tines.com/library/tools/automox/
+BMC Helix IT Service Management,1,https://www.tines.com/library/tools/bmc-helix-it-service-management/
+Bolster AI,1,https://www.tines.com/library/tools/bolster/
+Bowtie,1,https://www.tines.com/library/tools/bowtie/
+BuildKite,1,https://www.tines.com/library/tools/buildkite/
+CheckPhish.ai,1,https://www.tines.com/library/tools/checkphish/
+Claroty xDome,1,https://www.tines.com/library/tools/claroty-xdome/
+Cloudflare,1,https://www.tines.com/library/tools/cloudflare/
+Coda,1,https://www.tines.com/library/tools/coda/
+Cylance,1,https://www.tines.com/library/tools/cylance/
+Docebo,1,https://www.tines.com/library/tools/docebo/
+DocSpring,1,https://www.tines.com/library/tools/docspring/
+DocuSign,1,https://www.tines.com/library/tools/docusign/
+Dremio,1,https://www.tines.com/library/tools/dremio/
+Endace,1,https://www.tines.com/library/tools/endace/
+Entro,1,https://www.tines.com/library/tools/entro/
+ExtensionTotal,1,https://www.tines.com/library/tools/extensiontotal/
+Extrahop,1,https://www.tines.com/library/tools/extrahop/
+Facebook Messenger,1,https://www.tines.com/library/tools/facebook-messenger/
+FireBase,1,https://www.tines.com/library/tools/firebase/
+Grafana,1,https://www.tines.com/library/tools/grafana/
+Grip Security,1,https://www.tines.com/library/tools/grip/
+HCL AppScan,1,https://www.tines.com/library/tools/hcl-appscan/
+Hunter.io,1,https://www.tines.com/library/tools/hunter-io/
+Infoblox,1,https://www.tines.com/library/tools/infoblox/
+Invary,1,https://www.tines.com/library/tools/invary/
+IRIS,1,https://www.tines.com/library/tools/iris/
+IriusRisk,1,https://www.tines.com/library/tools/iriusrisk/
+Island,1,https://www.tines.com/library/tools/island/
+Jira Service Management,1,https://www.tines.com/library/tools/jira-service-management/
+Kolide,1,https://www.tines.com/library/tools/kolide/
+Lansweeper,1,https://www.tines.com/library/tools/lansweeper/
+LinkedIn,1,https://www.tines.com/library/tools/linkedin/
+Malwarebytes,1,https://www.tines.com/library/tools/malwarebytes/
+Manage Engine,1,https://www.tines.com/library/tools/manage-engine/
+Mattermost,1,https://www.tines.com/library/tools/mattermost/
+MetaDefender,1,https://www.tines.com/library/tools/opswat-metadefender/
+MongoDB Atlas,1,https://www.tines.com/library/tools/mongodb/
+NetBox,1,https://www.tines.com/library/tools/netbox/
+Netsuite,1,https://www.tines.com/library/tools/netsuite/
+New Relic,1,https://www.tines.com/library/tools/new-relic/
+Nightfall AI,1,https://www.tines.com/library/tools/nightfall/
+NPM,1,https://www.tines.com/library/tools/npm/
+NVIDIA,1,https://www.tines.com/library/tools/nvidia/
+OneLogin,1,https://www.tines.com/library/tools/onelogin/
+Opencage,1,https://www.tines.com/library/tools/opencage/
+OpenCTI,1,https://www.tines.com/library/tools/opencti/
+Openrouter,1,https://www.tines.com/library/tools/openrouter/
+PDFCo,1,https://www.tines.com/library/tools/pdfco/
+Pushover,1,https://www.tines.com/library/tools/pushover/
+Quickbase,1,https://www.tines.com/library/tools/quickbase/
+Rapid7,1,https://www.tines.com/library/tools/rapid7/
+Semgrep,1,https://www.tines.com/library/tools/semgrep/
+SerpApi,1,https://www.tines.com/library/tools/serpapi/
+Shortcut,1,https://www.tines.com/library/tools/shortcut/
+Silent Push,1,https://www.tines.com/library/tools/silent-push/
+Smartsheet,1,https://www.tines.com/library/tools/smartsheet/
+Sonatype,1,https://www.tines.com/library/tools/sonatype/
+Sophos,1,https://www.tines.com/library/tools/sophos/
+Spur,1,https://www.tines.com/library/tools/spur/
+SSLMate,1,https://www.tines.com/library/tools/sslmate/
+Stability AI,1,https://www.tines.com/library/tools/stability-ai/
+Stairwell,1,https://www.tines.com/library/tools/stairwell/
+Statuspage,1,https://www.tines.com/library/tools/statuspage/
+Supabase,1,https://www.tines.com/library/tools/supabase/
+Tanium,1,https://www.tines.com/library/tools/tanium/
+Telegram,1,https://www.tines.com/library/tools/telegram/
+TurboDocx,1,https://www.tines.com/library/tools/turbodocx/
+Velociraptor,1,https://www.tines.com/library/tools/velociraptor/
+VeSync,1,https://www.tines.com/library/tools/vesync/
+VMRay,1,https://www.tines.com/library/tools/vmray/
+Vorlon,1,https://www.tines.com/library/tools/vorlon/
+Wazuh,1,https://www.tines.com/library/tools/wazuh/
+Webex,1,https://www.tines.com/library/tools/webex/
+Webhood,1,https://www.tines.com/library/tools/webhood/
+Workday,1,https://www.tines.com/library/tools/workday/
+Workplace,1,https://www.tines.com/library/tools/workplace/
+Yubico,1,https://www.tines.com/library/tools/yubico/
