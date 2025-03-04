@@ -9,6 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # Setup Chrome options
 chrome_options = Options()
+chrome_options.add_argument("--headless=new")  # Use the new headless mode
 # chrome_options.add_argument("--start-maximized")  # Open browser in maximized mode
 
 # Initialize WebDriver
@@ -34,6 +35,8 @@ def fetch_tools():
         pagination_dropdown.click()
         time.sleep(3)  # Wait for page refresh after clicking the button
 
+        print("Task-1 : Writing the data to tools_data.csv")
+
         # Locate tools table
         tools_table = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "table tbody")))
         rows = tools_table.find_elements(By.CSS_SELECTOR, "tr")
@@ -44,15 +47,15 @@ def fetch_tools():
                 tool_name = row.find_element(By.CSS_SELECTOR, "th a").text.strip()
                 num_stories = row.find_element(By.CSS_SELECTOR, "td:nth-child(3)").text.strip()
                 
-                div_element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "taaq09w")))
+                # div_element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "taaq09w")))
 
-                # Now find the <span> inside this div
-                span_element = div_element.find_element(By.TAG_NAME, "span")
+                # # Now find the <span> inside this div
+                # span_element = div_element.find_element(By.TAG_NAME, "span")
 
-                # Extract and print the text inside the <span>
-                # print("Extracted Text:", span_element.text)
-                num_actions = row.find_element(By.CSS_SELECTOR, "td:nth-child(4)").text.strip()
-                # print(num_actions)
+                # # Extract and print the text inside the <span>
+                # # print("Extracted Text:", span_element.text)
+                # num_actions = row.find_element(By.CSS_SELECTOR, "td:nth-child(4)").text.strip()
+                # # print(num_actions)
                 tools_data.append([tool_name, num_stories])
             except Exception:
                 continue  # Skip row if any error occurs
@@ -168,18 +171,16 @@ def fetch_all_stories():
                     works_with = []
                     
                     # Iterate through all found div elements
-                    for div_element in div_elements:
-                        
-                        print("Element: ", div_element)
+                    for div_element in div_elements:                        
+                        # print("Element: ", div_element)
                         # Locate the <span> inside each div
                         span_element = div_element.find_element(By.TAG_NAME, "span")
 
-                        print("Div HTML:", div_element.get_attribute("outerHTML")) 
+                        # print("Div HTML:", div_element.get_attribute("outerHTML")) 
                         text = driver.execute_script("return arguments[0].textContent;", span_element)
-                        print("Extracted Text (JS):", text)
-                        
-                        works_with.append(text)
-                        
+                        # print("Extracted Text (JS):", text)
+                    
+                        works_with.append(text)    
                         # Print extracted text
                         # print(f"Story: {story_name}, Extracted Text: {span_element.text}")
                     tool_elements = row.find_elements(By.ID, "table tbody tr td a div div span")
@@ -188,8 +189,6 @@ def fetch_all_stories():
                     print("Tool Elements:",tool_elements)
                     
                     # works_with = ",".join([tool.text.strip() for tool in tool_elements])
-                                
-                    
 
                     # # Find the inner div (taaq09w)
                     # div_element = parent_div.find_element(By.CLASS_NAME, "taaq09w")
@@ -208,7 +207,7 @@ def fetch_all_stories():
 
                     num_actions = row.find_element(By.CSS_SELECTOR, "td:nth-child(4)").text.strip()
                     
-                    print(num_actions)
+                    # print(num_actions)
                     num_actions = row.find_element(By.CSS_SELECTOR, "td:nth-child(4)").text.strip()
                     author = row.find_element(By.CSS_SELECTOR, "td:nth-child(5)").text.strip()
                     print(story_name, works_with, num_actions, author, end="\n")
@@ -219,16 +218,15 @@ def fetch_all_stories():
                 # i += 1
                 # if (i ==1):
                 #     break
-
-        print("✅ All stories data saved to all_stories.csv")
+        print("All stories data saved to all_stories.csv")
 
     except Exception as e:
-        print(f"❌ Error in fetch_all_stories(): {e}")
+        print(f"Error in fetch_all_stories(): {e}")
 
 
 def main():
-    # fetch_tools()         # Task 1: Scrape tools
-    # fetch_tool_stories()  # Task 2: Scrape stories under each tool
+    fetch_tools()         # Task 1: Scrape tools and their number of stories
+    fetch_tool_stories()  # Task 2: Scrape stories under each tool
     fetch_all_stories()   # Task 3: Scrape all stories from library page
     driver.quit()
 
