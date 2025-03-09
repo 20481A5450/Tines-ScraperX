@@ -245,7 +245,7 @@ def fetch_all_stories():
 def main():
     fetch_tools()         # Task 1: Scrape tools and their number of stories
     fetch_tool_stories()  # Task 2: Scrape stories under each tool
-    # fetch_all_stories()   # Task 3: Scrape all stories from library page
+    fetch_all_stories()   # Task 3: Scrape all stories from library page
     driver.quit()
 
 if __name__ == '__main__':
